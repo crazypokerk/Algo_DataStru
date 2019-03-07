@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bf3986d-56c0-4d70-8167-c57f6ea6610d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_4Pet/_1_7GetMaxWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="8bf3986d-56c0-4d70-8167-c57f6ea6610d" name="Default Changelist" comment="add">
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/Algo/DynamicProgramming.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/Algo/Pattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/LeetCode/_171_threeSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_1MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_2TwoStacksQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_3RecursionStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_4Pet/DogCatQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_4Pet/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_4Pet/PetEnterQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_5SortStackByStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_6HanoiProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/_171_threeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ForOffer/Algo/_0_1package.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ForOffer/Algo/_0_1package.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ForOffer/META-INF/ForOffer.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,7 +121,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_6HanoiProblem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
@@ -122,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_4Pet/_1_7GetMaxWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="190">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -250,7 +258,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551929482355" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551929769885" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -382,18 +390,26 @@
       <workItem from="1551747067003" duration="2408000" />
       <workItem from="1551840128723" duration="598000" />
       <workItem from="1551843057982" duration="10379000" />
-      <workItem from="1551918811963" duration="9370000" />
+      <workItem from="1551918811963" duration="9892000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1551929515482</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551929515482</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149344000" />
+    <option name="totallyTimeSpent" value="149866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.490625" visible="true" weight="0.20643431" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490625" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" sideWeight="0.509375" side_tool="true" weight="0.41066667" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -412,7 +428,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3298969" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -466,7 +482,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Fibonacci_Solu.java">
@@ -871,17 +888,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_4Pet/_1_7GetMaxWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_6HanoiProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_4Pet/_1_7GetMaxWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
