@@ -2,11 +2,11 @@ package SORT;
 
 /**
  * 选择排序
- *      原地排序算法，空间复杂度为o(1)
- *      不稳定的排序算法
- *      最好情况时间复杂度为o(n2)
- *      最坏情况时间复杂度为o(n2)
- *      平均情况下的时间复杂度是：o(n2)
+ * 原地排序算法，空间复杂度为o(1)
+ * 不稳定的排序算法
+ * 最好情况时间复杂度为o(n2)
+ * 最坏情况时间复杂度为o(n2)
+ * 平均情况下的时间复杂度是：o(n2)
  */
 public class _3_SelectionSort {
     public static void selectionSort(int[] a, int n) {

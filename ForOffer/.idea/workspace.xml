@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bf3986d-56c0-4d70-8167-c57f6ea6610d" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/Algo/DynamicProgramming.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/Algo/Pattern.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/LeetCode/_171_threeSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_1MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_2TwoStacksQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_3RecursionStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_4Pet/DogCatQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_4Pet/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_4Pet/PetEnterQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_5SortStackByStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/_1_6HanoiProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/_171_threeSum.java" afterDir="false" />
+    <list default="true" id="8bf3986d-56c0-4d70-8167-c57f6ea6610d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ForOffer/LeetCode/_171_threeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ForOffer/LeetCode/_171_threeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SORT/_1_BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SORT/_1_BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SORT/_2_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SORT/_2_InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SORT/_3_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SORT/_3_SelectionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_1MyStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="247">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
@@ -42,99 +34,51 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding>
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_3RecursionStack.java">
+        <entry file="file://$PROJECT_DIR$/src/CodingInterview/_2_PrintCommonPart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="456">
+              <caret line="24" selection-start-line="24" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_4Pet/Pet.java">
+        <entry file="file://$PROJECT_DIR$/src/CodingInterview/_2_RemoveLastKthNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="475">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_4Pet/PetEnterQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-              <folding>
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_4Pet/DogCatQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_2_InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1768#1769#0" expanded="true" />
-                <element signature="e#1833#1834#0" expanded="true" />
-                <element signature="e#1401#1402#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#1483#1484#0" expanded="true" />
-                <element signature="e#1510#1511#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_5SortStackByStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="149">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_6HanoiProblem.java">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_3_SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_4Pet/_1_7GetMaxWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="323">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -154,11 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/_5_ReplaceBlank.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/_5_ReplaceSpace.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/_6_PrintListFromTailToHead.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/_7_ReConstructBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/SORT/_1_ChosenSort.java" />
         <option value="$PROJECT_DIR$/src/SORT/_1_Selection.java" />
         <option value="$PROJECT_DIR$/src/SORT/_4_ShellSort.java" />
         <option value="$PROJECT_DIR$/src/SORT/_7_CountingSort.java" />
@@ -169,13 +108,10 @@
         <option value="$PROJECT_DIR$/src/Alo/ListStack.java" />
         <option value="$PROJECT_DIR$/src/Alo/CircularQueue.java" />
         <option value="$PROJECT_DIR$/src/Alo/ListQueue.java" />
-        <option value="$PROJECT_DIR$/src/SORT/_2_InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/SORT/_3_SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/SORT/_5_MergeSort.java" />
         <option value="$PROJECT_DIR$/src/Alo/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/Alo/TTTTTTT.java" />
         <option value="$PROJECT_DIR$/src/Alo/ArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/SORT/_6_QuickSort.java" />
         <option value="$PROJECT_DIR$/src/Alo/Bsearch.java" />
         <option value="$PROJECT_DIR$/src/Algo/Bsearch.java" />
         <option value="$PROJECT_DIR$/src/Algo/Order.java" />
@@ -193,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/Algo/_0_1package.java" />
         <option value="$PROJECT_DIR$/src/Algo/Pattern.java" />
         <option value="$PROJECT_DIR$/src/Algo/DynamicProgramming.java" />
-        <option value="$PROJECT_DIR$/src/SORT/_1_BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/_171_threeSum.java" />
         <option value="$PROJECT_DIR$/src/JianZhiOffer/_1_1MyStack.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/_1_2TwoStacksQueue.java" />
@@ -205,14 +140,23 @@
         <option value="$PROJECT_DIR$/src/CodingInterview/_1_5SortStackByStack.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/_1_6HanoiProblem.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/_1_4Pet/_1_7GetMaxWindow.java" />
+        <option value="$PROJECT_DIR$/src/SORT/quicksort.java" />
+        <option value="$PROJECT_DIR$/src/SORT/_6_QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/HuaWei/Q_1.java" />
+        <option value="$PROJECT_DIR$/src/HuaWei/Q_2.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/_2_PrintCommonPart.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/_2_RemoveLastKthNode.java" />
+        <option value="$PROJECT_DIR$/src/SORT/_1_BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/SORT/_2_InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/SORT/_3_SelectionSort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="301" />
-    <option name="y" value="92" />
-    <option name="width" value="1010" />
-    <option name="height" value="803" />
+    <option name="x" value="557" />
+    <option name="y" value="77" />
+    <option name="width" value="1134" />
+    <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -222,8 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,25 +182,26 @@
               <item name="ForOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="ForOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CodingInterview" type="462c0819:PsiDirectoryNode" />
+              <item name="HuaWei" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ForOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="ForOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CodingInterview" type="462c0819:PsiDirectoryNode" />
-              <item name="_1_4Pet" type="462c0819:PsiDirectoryNode" />
+              <item name="SORT" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551929769885" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552097432956" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -276,26 +219,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._171_threeSum">
-    <configuration name="TTTTTTT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algo.TTTTTTT" />
+  <component name="RunManager" selected="Application._2_InsertionSort">
+    <configuration name="Q_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HuaWei.Q_1" />
       <module name="ForOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_0_1package" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algo._0_1package" />
-      <module name="ForOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algo.*" />
+          <option name="PATTERN" value="HuaWei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sadfasd2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algo.sadfasd2" />
+    <configuration name="_1_BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SORT._1_BubbleSort" />
       <module name="ForOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algo.*" />
+          <option name="PATTERN" value="SORT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,12 +259,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sdadas1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algo.sdadas1" />
+    <configuration name="_2_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SORT._2_InsertionSort" />
       <module name="ForOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algo.*" />
+          <option name="PATTERN" value="SORT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SORT.quicksort" />
+      <module name="ForOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SORT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._2_InsertionSort" />
+        <item itemvalue="Application._1_BubbleSort" />
+        <item itemvalue="Application.Q_1" />
+        <item itemvalue="Application.quicksort" />
         <item itemvalue="Application._171_threeSum" />
-        <item itemvalue="Application._0_1package" />
-        <item itemvalue="Application.sadfasd2" />
-        <item itemvalue="Application.sdadas1" />
-        <item itemvalue="Application.TTTTTTT" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +333,9 @@
       <workItem from="1551747067003" duration="2408000" />
       <workItem from="1551840128723" duration="598000" />
       <workItem from="1551843057982" duration="10379000" />
-      <workItem from="1551918811963" duration="9892000" />
+      <workItem from="1551918811963" duration="13771000" />
+      <workItem from="1552038297665" duration="10836000" />
+      <workItem from="1552095789946" duration="1669000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1551929515482</created>
@@ -399,18 +344,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551929515482</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add">
+      <created>1551929826115</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551929826115</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149866000" />
+    <option name="totallyTimeSpent" value="166250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490625" visible="true" weight="0.20643431" />
-      <window_info id="Structure" order="1" sideWeight="0.509375" side_tool="true" weight="0.41066667" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490625" weight="0.40080428" />
+      <window_info id="Structure" order="1" sideWeight="0.509375" side_tool="true" weight="0.41037735" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -418,13 +370,13 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3713163" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34702548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37677053" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2917847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -440,8 +392,8 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.490625" visible="true" weight="0.41066667" />
-      <window_info id="Structure" order="1" sideWeight="0.509375" side_tool="true" weight="0.41066667" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490625" visible="true" weight="0.40080428" />
+      <window_info id="Structure" order="1" sideWeight="0.509375" side_tool="true" weight="0.41037735" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -449,17 +401,17 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3713163" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34702548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37677053" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2917847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3298969" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -486,88 +438,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Fibonacci_Solu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/DualPivotQuicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3952">
-          <caret line="231" column="21" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algo/ListStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_3_SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algo/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algo/CircularQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_2_InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_5_MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_6_QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_7_ReConstructBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algo/Breadth_First_Search.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -731,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algo/DynamicProgramming.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
@@ -802,31 +665,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_2TwoStacksQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_1MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_4Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_4Pet.java" />
     <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_3RecursionStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -881,6 +720,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_6HanoiProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_5SortStackByStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -895,10 +741,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_6HanoiProblem.java">
+    <entry file="file://$PROJECT_DIR$/src/SORT/quicksort.java" />
+    <entry file="file://$PROJECT_DIR$/src/SORT/_6_QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="665">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HuaWei/Q_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HuaWei/Q_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_1MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_1_2TwoStacksQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_2_PrintCommonPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_2_RemoveLastKthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_2_InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_3_SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
