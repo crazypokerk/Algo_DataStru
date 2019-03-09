@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bf3986d-56c0-4d70-8167-c57f6ea6610d" name="Default Changelist" comment="add">
+    <list default="true" id="8bf3986d-56c0-4d70-8167-c57f6ea6610d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_1_1MyStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_1_2TwoStacksQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_1_3RecursionStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_1_4Pet/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_1_4Pet/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_1_4Pet/DogCatQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_1_4Pet/Pet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_1_4Pet/PetEnterQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_1_4Pet/_1_7GetMaxWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_1_5SortStackByStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_1_6HanoiProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_2_PrintCommonPart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/CodingInterview/_2_RemoveLastKthNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/HuaWei/Q_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/HuaWei/Q_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/HuaWei/errorLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ForOffer/META-INF/ForOffer.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,7 +33,26 @@
     <favorites_list name="ForOffer" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodingInterview/_2_7ReversePart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CodingInterview/_2_8JosephusKill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,8 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SORT/_7_CountingSort.java" />
-        <option value="$PROJECT_DIR$/src/Alo/recall.java" />
         <option value="$PROJECT_DIR$/src/Alo/_0_1package.java" />
         <option value="$PROJECT_DIR$/src/JianZhiOffer/Fibonacci_Solu.java" />
         <option value="$PROJECT_DIR$/src/JianZhiOffer/ReverseList.java" />
@@ -81,6 +116,8 @@
         <option value="$PROJECT_DIR$/src/CodingInterview/_2_RemoveLastKthNode.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/_2_3RemoveMidNode.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/_2_6ReverseList.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/_2_7ReversePart.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/_2_8JosephusKill.java" />
       </list>
     </option>
   </component>
@@ -127,7 +164,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552102417228" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552114202329" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -261,7 +298,7 @@
       <workItem from="1551843057982" duration="10379000" />
       <workItem from="1551918811963" duration="13771000" />
       <workItem from="1552038297665" duration="10836000" />
-      <workItem from="1552095789946" duration="6478000" />
+      <workItem from="1552095789946" duration="10194000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1551929515482</created>
@@ -291,14 +328,22 @@
       <option name="project" value="LOCAL" />
       <updated>1552102149179</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add">
+      <created>1552102465850</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552102465850</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171059000" />
+    <option name="totallyTimeSpent" value="174775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.490625" visible="true" weight="0.22520107" />
       <window_info id="Structure" order="1" sideWeight="0.509375" side_tool="true" weight="0.41037735" />
@@ -318,7 +363,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -381,20 +426,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Algo/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="140" column="19" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algo/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -784,6 +815,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_2_7ReversePart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/_2_8JosephusKill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
