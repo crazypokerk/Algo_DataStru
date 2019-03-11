@@ -1,5 +1,7 @@
 package SORT;
 
+import java.util.ArrayList;
+
 public class _6_QuickSort {
     // 快速排序，a是数组，n表示数组的大小
     public static void quickSort(int[] a, int n) {
@@ -37,4 +39,30 @@ public class _6_QuickSort {
         System.out.println("i=" + i);
         return i;
     }
+
+//主要思想是用栈来保存子数组的左右边界，代码中用数组模拟栈
+    void quicksort_unrecursion(int[] arr)//快速排序非递归
+    {
+        int[] mystack = new int[2000];//假设递归不超过1000层
+        //栈中保存下次需要排序的子数组的开始位置和结束位置
+        int top = -1;
+        mystack[++top] = 0;
+        mystack[++top] = arr.length - 1;
+        while(top > 0)//栈非空
+        {
+            int high = mystack[top--], low = mystack[top--];
+            int middle = partition(arr, low, high);
+            if(middle+1 < high)//右边子数组入栈
+            {
+                mystack[++top] = middle+1;
+                mystack[++top] = high;
+            }
+            if(low < middle-1)//左边子数组入栈
+            {
+                mystack[++top] = low;
+                mystack[++top] = middle-1;
+            }
+        }
+    }
+
 }
