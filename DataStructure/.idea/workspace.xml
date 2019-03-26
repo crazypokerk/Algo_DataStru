@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e659675-84e9-4ac0-9b04-f746461a3259" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/ForOffer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/BinarySearchTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/BinaryTreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Bsearch$s.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Bsearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/CircularQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/DynamicProgramming.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/EightQueens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Heap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ListQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ListQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ListStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ListStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Order$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Pattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/TTTTTTT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Trie$TrieNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/_0_1package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/recall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/sadfasd2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/sdadas1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_1MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_2TwoStacksQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_3RecursionStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/DogCatQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/PetEnterQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/_1_7GetMaxWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_5SortStackByStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_6HanoiProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_2_PrintCommonPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_2_RemoveLastKthNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/HuaWei/Q_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/HuaWei/Q_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/HuaWei/errorLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/Fibonacci_Solu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/ReverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/_3_FindDuplicates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/_5_ReplaceSpace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/_6_PrintListFromTailToHead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/_7_ReConstructBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/LeetCode/_171_threeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/META-INF/ForOffer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_1_BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_2_InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_3_SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_4_ShellSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_5_MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_6_QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_7_CountingSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/ArrayQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/ArrayStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/BinaryTreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Bsearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/CircularQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/DynamicProgramming.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/EightQueens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Heap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/ListQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/ListStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Pattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/TTTTTTT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Trie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/_0_1package.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/recall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/sadfasd2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/sdadas1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/HuaWei/Q_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/HuaWei/Q_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/Fibonacci_Solu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/ReverseList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/_3_FindDuplicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/_5_ReplaceSpace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/_6_PrintListFromTailToHead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/_7_ReConstructBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/LeetCode/_171_threeSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_1_BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_2_InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_3_SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_4_ShellSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_5_MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_6_QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_7_CountingSort.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_14_Cut.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Node.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_13_MovingCount.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_4_ShellSort.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_7_CountingSort.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_6_QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_2_InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_3_SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_5_MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="396" />
+    <option name="y" value="178" />
+    <option name="width" value="1400" />
+    <option name="height" value="815" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SORT" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553563404938" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="O:\MyGIT\DataStructure\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e659675-84e9-4ac0-9b04-f746461a3259" name="Default Changelist" comment="" />
+      <created>1553563153649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553563153649</updated>
+      <workItem from="1553563156494" duration="244000" />
+    </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1553563398246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553563398246</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="244000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="317" y="143" width="1120" height="652" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3512241" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Graph Database Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.31538463" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Graph Database" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Algo/ListQueue.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algo/DynamicProgramming.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algo/sadfasd2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algo/Bsearch.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algo/Graph.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algo/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algo/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algo/recall.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algo/LRUalgo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algo/CircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/chap1/_1_4Pet/Pet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_3_FindDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_6_PrintList.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_9_TwoStack.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_7_ReConstructBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/ReverseList.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_6_PrintListFromTailToHead.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_12_StringPathInMatrix.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_14_Cut.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Node.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_13_MovingCount.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_4_ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_7_CountingSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_6_QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_2_InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_3_SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_5_MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
