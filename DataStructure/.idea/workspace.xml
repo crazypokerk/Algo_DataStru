@@ -1,110 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e659675-84e9-4ac0-9b04-f746461a3259" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/ForOffer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ArrayStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/BinaryTreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Bsearch$s.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Bsearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/CircularQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/DynamicProgramming.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/EightQueens.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ListQueue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ListQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ListStack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/ListStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Order$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Pattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/TTTTTTT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Trie$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/_0_1package.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/recall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/sadfasd2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/Algo/sdadas1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_1MyStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_2TwoStacksQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_3RecursionStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/DogCatQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/Pet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/PetEnterQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_4Pet/_1_7GetMaxWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_5SortStackByStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_1_6HanoiProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_2_PrintCommonPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/CodingInterview/_2_RemoveLastKthNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/HuaWei/Q_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/HuaWei/Q_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/HuaWei/errorLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/Fibonacci_Solu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/ReverseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/_3_FindDuplicates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/_5_ReplaceSpace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/_6_PrintListFromTailToHead.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/JianZhiOffer/_7_ReConstructBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/LeetCode/_171_threeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/META-INF/ForOffer.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_1_BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_2_InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_3_SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_4_ShellSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_5_MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_6_QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/out/production/ForOffer/SORT/_7_CountingSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/ArrayQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/ArrayStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/BinaryTreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Bsearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/CircularQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/DynamicProgramming.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/EightQueens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Heap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/ListQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/ListStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Pattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/TTTTTTT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/Trie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/_0_1package.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/recall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/sadfasd2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/Algo/sdadas1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/HuaWei/Q_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/HuaWei/Q_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/Fibonacci_Solu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/ReverseList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/_3_FindDuplicates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/_5_ReplaceSpace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/_6_PrintListFromTailToHead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/JianZhiOffer/_7_ReConstructBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/LeetCode/_171_threeSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_1_BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_2_InsertionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_3_SelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_4_ShellSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_5_MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_6_QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForOffer/src/SORT/_7_CountingSort.java" beforeDir="false" />
+    <list default="true" id="1e659675-84e9-4ac0-9b04-f746461a3259" name="Default Changelist" comment="add">
+      <change afterPath="$PROJECT_DIR$/src/GeekTime_Math/_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GeekTime_Math/_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GeekTime_Math/_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GeekTime_Math/_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_16_PowerWithUnsignedExponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_17_PrintToMaxOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_18_DeleteListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_49_GetUglyNumber_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_50_FirstNotRepeatingChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_52_FindFirstCommonNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/SettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/LoginTicketDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/QuestionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/interceptor/PassportInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/LoginTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/ViewObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/WendaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/WendaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/mappers/QuestionDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/img/spinner2.8f60205d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/img/sprites-1.9.2.4c54885a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/img/sprites-1.9.2@2x.6e638473.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/img/sprites.auto.915a539c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/img/sprites@2x.auto.dd5c79c1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/070a9fb26_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/0b856ef58f76b7c83a0e130f6ef71281_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/0ba3da3f03ced7a438118b0be77df56c_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/0c6a39621ab1d456b1e6e492d0becc0c_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/0cf21546298ad1ed3cb64be61d822c27_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/0cffb89d0b0bd4e726ae54b212a31c3b_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/102799979_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/10a4cd7fb082375332be33eadfd14c58_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/11ba31c8bb5473a44b7690eff24b9123_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/11be4a90ed938abfbab4899df56ee754_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/12a8e1ce5ad8060fddb93ae2df98028b_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/19456ebfe8b207320735f282769ac635_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/1ac7840eeb19ada0bbf85f51702d5784_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/1ce495b02_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/23cace5cf60f39dbc095bd7a12b2cfad_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/24ce38dd5fc2a0c4e0525e577eef7d64_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/272627e471a533f58f319a9e600e0a94_is.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/2e21e58a990f5c756e813a64a4bba14c_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/31826765d442d8222a05cd67d0643a25_270x225.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/33fb6f51a3f4e16b6e89172040451dca_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/3b673d6335ef6788d1659ee2b6381e97_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/41d652d947a489e056b0179ba137294b_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/450c9d9f5240f05f73d21fe3ae76f1a6_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/4528283ed249589634546327431667bf_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/4d104b6c6a08f7e1a48f4f32c88b1ce2_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/51559bbebaa7fd395c271b7b1c8b9f26_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/558b3e3d8be209247159ba4f83ab1c02_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/6088e39f2_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/66a689b2c60557eae79d839aaedf48b0_200x112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/6c76223a5aef2f1d29c680a2524de791_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/6ceea810748d179f57cac0baa5cf9592_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/6cfbfc0c5e3c5ecd8784f7e733a75b4f_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/6fd46860a4b6cbc1e52d676f217ea9fd_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/7412830858217e93f6c5d06f6328cbd5_200x112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/7986ef6045f2cef8352be5affce5f7d1_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/837b60aa36029a2309974e74de3b62e9_xl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/845303838eca4a5b5f03cc3ca994ec28_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/845c492813e72b85c6e11cccf8ed0ff8_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/935f87219_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/975baaf73fd76f48ce6f05e19b176878_xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/9cfe980ca44e38bd9b0e5c3dee5b0f3e_270x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/9ec0168d1b210d9b8f089e16f521b82b_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/a3f80f6a6_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/a4df63114bd9374a73775e30db1cdd36_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/a57fdaff90865eaaef2e87051624862b_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/aa49b7ceff22ea68ca5f747115cd17af_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/aadd7b895_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/aadd7b895_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/actioncard-suggested-avatar.c5af416d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/actioncard-validation@2x.65147043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/b144d91ec_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/b3aadf89405941b05a5ce00fb06f8281_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/b476f1461388bf4907634009904739e6_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/b4a6228e6810d38e19e491c173af4d5c_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/b85ddd8aa_xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/badaaf312e59c125928bd1ea2d4b5a51_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/bb73b7fb48b0cb63aa573415dfe4d0c5_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/bc93fd5289c13c06fd569bc4f6df821e_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/be39d110759e68f389b7d2934d7353bc_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c07f969d8dcc6251ef114fe6b1a9a563_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c28e9af7f_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c54bb4367803ba590035d2d89d1a84dd_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c79247853_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c898060535edfdbe4147d2135c29787f_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c94c92af8_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/cafae465b8ea283498c69ab9757f86ba_xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/captcha.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/cbc5d3c6f333215a1c480cb3b4735b45_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/d207854fffc9e0289fbd6bbbb3986988_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/d6842d77b4bda238e0db09217e3d2f8d_270x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/d822a919d93a761634a67c2022a3f614_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/da8e974dc_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/da8e974dc_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/da8e974dc_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/df4aa616fdcfbd861c010ff71aaef95c_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/e174d6d0c_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/e6f4caaaa_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/e8757728eb70adeb8ebaa0864874c29d_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/ec6bb3fa05625b848ac4d475ecce35c9_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/f1148eb1c7170cabb0a78dad73b590f6_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/f99201e42237de4fb7f8d5fbf9a2d270_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/fa70eff301ba417d4a9d3f55d603a29e_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/facfb45ac94f174655695853d4470bac_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/fb05f15bf8bffd1590df442ff6ba7812_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/fb6c4dd60a9f19f5fcd8265395e11f9e_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/fff25000064308791f739149af611439_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/hour.3d371c99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/nacl.656ec1c4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/nk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/weekly.65279d61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/aza-0.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/base.fb262f0e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/common.fed5411f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/instant.e7a17de6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-index.d7b54ac7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-main.5d4c554d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/richtexteditor.aa0a4005.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/vendor.ff76fbae.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/za-0.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/letter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/result.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/toolbox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/_6_PrintList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/_6_PrintList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/_9_TwoStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/_9_TwoStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,67 +161,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_14_Cut.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Node.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_50_FirstNotRepeatingChar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_13_MovingCount.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_49_GetUglyNumber_Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SORT/_4_ShellSort.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_6_PrintList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SORT/_7_CountingSort.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SORT/_6_QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SORT/_2_InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SORT/_3_SelectionSort.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SORT/_5_MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_5_ReplaceSpace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_9_TwoStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="e#120#129#0" expanded="true" />
+                <element signature="e#170#179#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/GeekTime_Math/_1.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/_16_PowerWithUnsignedExponent.java" />
+        <option value="$PROJECT_DIR$/src/GeekTime_Math/_03.java" />
+        <option value="$PROJECT_DIR$/src/GeekTime_Math/_5.java" />
+        <option value="$PROJECT_DIR$/src/GeekTime_Math/_6.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/_17_PrintToMaxOfDigits.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/_18_DeleteListNode.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/_52_FindFirstCommonNode.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/_50_FirstNotRepeatingChar.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/_49_GetUglyNumber_Solution.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/_6_PrintList.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/_9_TwoStack.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="396" />
-    <option name="y" value="178" />
-    <option name="width" value="1400" />
-    <option name="height" value="815" />
+    <option name="x" value="532" />
+    <option name="y" value="152" />
+    <option name="width" value="1085" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -182,6 +267,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -199,19 +285,18 @@
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SORT" type="462c0819:PsiDirectoryNode" />
+              <item name="JianZhiOffer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553563404938" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553925224342" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -232,6 +317,74 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application._50_FirstNotRepeatingChar">
+    <configuration name="_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeekTime_Math._1" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GeekTime_Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_16_PowerWithUnsignedExponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JianZhiOffer._16_PowerWithUnsignedExponent" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianZhiOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_50_FirstNotRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JianZhiOffer._50_FirstNotRepeatingChar" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianZhiOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeekTime_Math._6" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GeekTime_Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application._1" />
+      <item itemvalue="Application._6" />
+      <item itemvalue="Application._16_PowerWithUnsignedExponent" />
+      <item itemvalue="Application._50_FirstNotRepeatingChar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application._50_FirstNotRepeatingChar" />
+        <item itemvalue="Application._6" />
+        <item itemvalue="Application._16_PowerWithUnsignedExponent" />
+        <item itemvalue="Application._1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -242,7 +395,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553563153649</updated>
-      <workItem from="1553563156494" duration="244000" />
+      <workItem from="1553563156494" duration="7769000" />
+      <workItem from="1553589718982" duration="8977000" />
+      <workItem from="1553648197745" duration="5771000" />
+      <workItem from="1553750910948" duration="50000" />
+      <workItem from="1553751037487" duration="33000" />
+      <workItem from="1553766121536" duration="4227000" />
+      <workItem from="1553820280989" duration="1885000" />
+      <workItem from="1553860511702" duration="2128000" />
+      <workItem from="1553914766869" duration="6168000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1553563398246</created>
@@ -255,42 +416,77 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244000" />
+    <option name="totallyTimeSpent" value="37008000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="317" y="143" width="1120" height="652" extended-state="0" />
+    <frame x="697" y="120" width="868" height="660" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3512241" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.42592594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Graph Database Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.31538463" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31060606" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36174244" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Graph Database" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Graph Database Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.31538463" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Graph Database" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42592594" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31060606" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36174244" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Graph Database Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.31538463" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Graph Database" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -316,6 +512,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -363,12 +573,6 @@
     <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_3_FindDuplicates.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_6_PrintList.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_9_TwoStack.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_7_ReConstructBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -396,9 +600,6 @@
     <entry file="file://$PROJECT_DIR$/src/SORT/_7_CountingSort.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_6_QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SORT/_2_InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -410,6 +611,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeekTime_Math/_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_6_QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_16_PowerWithUnsignedExponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeekTime_Math/_03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeekTime_Math/_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_17_PrintToMaxOfDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_18_DeleteListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_52_FindFirstCommonNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeekTime_Math/_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_50_FirstNotRepeatingChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_49_GetUglyNumber_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_6_PrintList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_5_ReplaceSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_9_TwoStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#120#129#0" expanded="true" />
+            <element signature="e#170#179#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

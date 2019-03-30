@@ -1,17 +1,21 @@
 package JianZhiOffer;
 
+import java.util.ArrayList;
+
 /**
  * @Date 2019/3/22 15:41
  */
 public class _6_PrintList {
-    public void printList(Node head) {
+    private ArrayList<Integer> arrayList = new ArrayList<>();
 
-        if (head != null) {
-            if (head.next != null) {
-                printList(head.next);
-            }
-
-            System.out.println(head.value);
+    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+        if (listNode == null) {
+            return arrayList;
         }
+        printListFromTailToHead(listNode.next);
+        arrayList.add(listNode.val);
+        return arrayList;
     }
+
+
 }
