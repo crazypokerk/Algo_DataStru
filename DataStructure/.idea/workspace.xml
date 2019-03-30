@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e659675-84e9-4ac0-9b04-f746461a3259" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/GeekTime_Math/_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GeekTime_Math/_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GeekTime_Math/_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GeekTime_Math/_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_16_PowerWithUnsignedExponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_17_PrintToMaxOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_18_DeleteListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_49_GetUglyNumber_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_50_FirstNotRepeatingChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_52_FindFirstCommonNode.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/aspect/LogAspect.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/HomeController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/IndexController.java" afterDir="false" />
@@ -150,8 +140,6 @@
       <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/login.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/toolbox.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/_6_PrintList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/_6_PrintList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/_9_TwoStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/_9_TwoStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,7 +163,7 @@
         <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_50_FirstNotRepeatingChar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="684">
-              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,20 +189,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_5_ReplaceSpace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="437">
               <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_9_TwoStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="228">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="e#120#129#0" expanded="true" />
                 <element signature="e#170#179#0" expanded="true" />
@@ -256,8 +244,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="532" />
-    <option name="y" value="152" />
+    <option name="x" value="470" />
+    <option name="y" value="153" />
     <option name="width" value="1085" />
     <option name="height" value="825" />
   </component>
@@ -296,7 +284,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553925224342" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553925315846" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -403,7 +391,7 @@
       <workItem from="1553766121536" duration="4227000" />
       <workItem from="1553820280989" duration="1885000" />
       <workItem from="1553860511702" duration="2128000" />
-      <workItem from="1553914766869" duration="6168000" />
+      <workItem from="1553914766869" duration="6447000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1553563398246</created>
@@ -412,17 +400,23 @@
       <option name="project" value="LOCAL" />
       <updated>1553563398246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add">
+      <created>1553925304258</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553925304260</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37008000" />
+    <option name="totallyTimeSpent" value="37287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="697" y="120" width="868" height="660" extended-state="0" />
-    <editor active="true" />
+    <frame x="376" y="123" width="868" height="660" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.42592594" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4185185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -692,7 +686,7 @@
     <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_50_FirstNotRepeatingChar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
-          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -713,23 +707,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_5_ReplaceSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_9_TwoStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="228">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#120#129#0" expanded="true" />
             <element signature="e#170#179#0" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#273#274#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_5_ReplaceSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
         </state>
       </provider>
     </entry>
