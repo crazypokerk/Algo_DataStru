@@ -23,6 +23,6 @@ public class _16_PowerWithUnsignedExponent {
     }
 
     public static void main(String[] args) {
-        System.out.println(powerWithUnsignedExponent(2, 4));
+        System.out.println(powerWithUnsignedExponent(4, 4));
     }
 }
