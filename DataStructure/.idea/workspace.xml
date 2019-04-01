@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e659675-84e9-4ac0-9b04-f746461a3259" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Threaddddd/Join.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threaddddd/MutilThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threaddddd/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threaddddd/Profiler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SORT/_1_BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SORT/_1_BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/configuration/WendaWebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/configuration/WendaWebConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/interceptor/LoginRequiredInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/interceptor/LoginRequiredInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SORT/_2_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SORT/_2_InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SORT/_3_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SORT/_3_SelectionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,26 +18,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Threaddddd/DoubleCheckedLocking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="133">
               <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_11_MinNumberInRotateArray.java">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            <state relative-caret-position="246">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_2_InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_3_SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="266">
+              <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -121,12 +124,14 @@
         <option value="$PROJECT_DIR$/src/Threaddddd/Profiler.java" />
         <option value="$PROJECT_DIR$/src/Threaddddd/Mutex.java" />
         <option value="$PROJECT_DIR$/src/SORT/_1_BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/SORT/_2_InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/SORT/_3_SelectionSort.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="661" />
-    <option name="y" value="132" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="525" />
+    <option name="y" value="185" />
     <option name="width" value="1085" />
     <option name="height" value="825" />
   </component>
@@ -171,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554128552338" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554129170407" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -192,35 +197,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._1_BubbleSort">
+  <component name="RunManager" selected="Application._3_SelectionSort">
     <configuration name="Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Threaddddd.Join" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Threaddddd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MutilThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Threaddddd.MutilThread" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Threaddddd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Priority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Threaddddd.Priority" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -258,20 +237,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_2_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SORT._2_InsertionSort" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SORT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3_SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SORT._3_SelectionSort" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SORT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MutilThread" />
-      <item itemvalue="Application.Priority" />
       <item itemvalue="Application.Join" />
       <item itemvalue="Application.Profiler" />
       <item itemvalue="Application._1_BubbleSort" />
+      <item itemvalue="Application._2_InsertionSort" />
+      <item itemvalue="Application._3_SelectionSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._3_SelectionSort" />
+        <item itemvalue="Application._2_InsertionSort" />
         <item itemvalue="Application._1_BubbleSort" />
         <item itemvalue="Application.Profiler" />
         <item itemvalue="Application.Join" />
-        <item itemvalue="Application.Priority" />
-        <item itemvalue="Application.MutilThread" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +299,7 @@
       <workItem from="1553820280989" duration="1885000" />
       <workItem from="1553860511702" duration="2128000" />
       <workItem from="1553914766869" duration="6447000" />
-      <workItem from="1554081562075" duration="14643000" />
+      <workItem from="1554081562075" duration="15152000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1553563398246</created>
@@ -317,17 +322,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554090220039</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add">
+      <created>1554128597891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554128597891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51930000" />
+    <option name="totallyTimeSpent" value="52439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="362" y="138" width="868" height="660" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.42962962" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.45925927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -336,8 +348,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.24645892" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3611898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -360,7 +372,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.42962962" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.45925927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -369,8 +381,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.45075756" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3611898" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -441,30 +453,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Algo/sadfasd2.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -518,12 +506,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SORT/_7_CountingSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_2_InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_3_SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SORT/_5_MergeSort.java">
@@ -634,13 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_15_NumberOf1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -767,22 +742,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_11_MinNumberInRotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="209">
           <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/_15_NumberOf1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Threaddddd/DoubleCheckedLocking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="133">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="246">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_2_InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SORT/_3_SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -9,9 +9,9 @@ package SORT;
  * 平均情况下的时间复杂度是：o(n2)
  */
 public class _2_InsertionSort {
-    public static void insertionSort(int[] a, int n) {
+    public static int[] insertionSort(int[] a, int n) {
         if (n <= 1) {
-            return;
+            return a;
         }
 
         for (int i = 1; i < n; ++i) {
@@ -26,11 +26,15 @@ public class _2_InsertionSort {
             }
             a[j + 1] = value;
         }
+        return a;
     }
 
     public static void main(String[] args) {
         int[] n = {9, 6, 7, 5, 4};
         int l = 5;
         insertionSort(n, l);
+        for (int i = 0; i < n.length; i++) {
+            System.out.println(n[i]);
+        }
     }
 }
