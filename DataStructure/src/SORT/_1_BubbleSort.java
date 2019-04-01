@@ -9,19 +9,18 @@ package SORT;
  * 平均情况下的时间复杂度是：o(n2)
  */
 public class _1_BubbleSort {
-    public static void bubbleSort(int[] nums, int len) {
-        if (len <= 1) {
-            return;
+    public static int[] bubbleSort(int[] a, int n) {
+        if (n <= 1) {
+            return a;
         }
 
-        for (int i = 0; i < len; ++i) {
+        for (int i = 0; i < n; ++i) {
             boolean flag = false;
-            for (int j = 1; j < len - i - 1; ++j) {
-                if (nums[j] > nums[j + 1]) {
-
-                    int tmp = nums[j];
-                    nums[j] = nums[j + 1];
-                    nums[j + 1] = tmp;
+            for (int j = 0; j < n - i - 1; ++j) {
+                if (a[j] > a[j + 1]) {
+                    int tmp = a[j];
+                    a[j] = a[j + 1];
+                    a[j + 1] = tmp;
                     flag = true;
                 }
             }
@@ -29,11 +28,15 @@ public class _1_BubbleSort {
                 break;
             }
         }
+        return a;
     }
 
     public static void main(String[] args) {
         int[] n = {3, 5, 4, 1, 2, 6};
         int len = 6;
         bubbleSort(n, len);
+        for (int i = 0; i < n.length; i++) {
+            System.out.println(n[i]);
+        }
     }
 }

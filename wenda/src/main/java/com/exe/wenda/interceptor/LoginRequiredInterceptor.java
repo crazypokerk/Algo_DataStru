@@ -1,19 +1,15 @@
 package com.exe.wenda.interceptor;
 
-import com.exe.wenda.dao.LoginTicketDAO;
-import com.exe.wenda.dao.UserDAO;
 import com.exe.wenda.model.HostHolder;
-import com.exe.wenda.model.LoginTicket;
-import com.exe.wenda.model.User;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.Date;
+
 
 /**
  * Created by nowcoder on 2016/7/17.
