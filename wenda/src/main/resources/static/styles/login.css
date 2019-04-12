@@ -24,11 +24,9 @@ a:hover {
 html.touchevents a:hover {
     text-decoration: none
 }
-
 a:hover {
     color: #25bb9b;
 }
-
 object:not([data]) {
     display: none
 }
@@ -2303,11 +2301,9 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     cursor: pointer;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
-
 .sign-button + .sign-button {
     margin-left: 10px;
 }
-
 .sign-button:active {
     color: #eee;
     border: 1px solid #0971C5;
@@ -2386,11 +2382,9 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
 .sign-flow a {
     color: inherit
 }
-
 .sign-flow a:hover {
     color: #25bb9b;
 }
-
 .sign-flow .title {
     display: none
 }

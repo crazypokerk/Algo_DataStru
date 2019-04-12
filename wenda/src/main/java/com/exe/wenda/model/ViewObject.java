@@ -6,6 +6,7 @@ import java.util.Map;
 /**
  * @Date 2019/3/26 16:16
  */
+//可以存储任何类型的对象
 public class ViewObject {
     private Map<String, Object> objs = new HashMap<String, Object>();
 

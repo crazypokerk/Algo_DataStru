@@ -1,4 +1,4 @@
-package Threaddddd;
+package DesignPattern.SingletonPattern;
 
 /**
  * @Date 2019/4/1 9:23

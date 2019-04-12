@@ -275,11 +275,9 @@ html.in-app body.zhi {
 a {
     color: #333
 }
-
 a:hover {
     color: #25bb9b;
 }
-
 a:active {
     outline: 0
 }
@@ -2027,11 +2025,9 @@ html.no-touchevents .meta-item:hover .z-icon-comment {
     /*border: 1px solid #bbb;*/
     box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, .1)
 }
-
 .zg-btn-white:hover {
     background: #00B091;
 }
-
 .zg-btn-white:active {
     background: #ddd;
     box-shadow: none
