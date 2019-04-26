@@ -19,8 +19,9 @@ public class MessageService {
     SensitiveService sensitiveService;
 
     public int addMessage(Message message) {
+        //用户增加站内信过滤一下
         message.setContent(sensitiveService.filter(message.getContent()));
-        return messageDAO.addMessage(message);
+        return messageDAO.addMessage(message) > 0 ? message.getId() : 0;
     }
 
     public List<Message> getConversationDetail(String conversationId, int offset, int limit) {
@@ -31,7 +32,8 @@ public class MessageService {
         return messageDAO.getConversationList(userId, offset, limit);
     }
 
-    public int getConvesationUnreadCount(int userId, String conversationId) {
-        return messageDAO.getConvesationUnreadCount(userId, conversationId);
+    //未读站内信
+    public int getConversationUnreadCount(int userId, String conversationId) {
+        return messageDAO.getConversationUnreadCount(userId, conversationId);
     }
 }

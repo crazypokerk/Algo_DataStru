@@ -1,20 +1,18 @@
 package com.exe.wenda.util;
 
 import com.alibaba.fastjson.JSONObject;
-import com.fasterxml.jackson.databind.util.JSONPObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.security.MessageDigest;
 import java.util.Map;
 
-/**
- * Created by nowcoder on 2016/7/3.
- */
 public class WendaUtil {
     private static final Logger logger = LoggerFactory.getLogger(WendaUtil.class);
 
+    //系统用户ID
     public static int SYSTEM_USERID = 4;
+    //匿名用户ID
     public static int ANONYMOUS_USERID = 3;
 
     public static String getJSONString(int code) {

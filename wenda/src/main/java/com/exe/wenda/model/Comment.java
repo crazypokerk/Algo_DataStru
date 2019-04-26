@@ -8,10 +8,13 @@ import java.util.Date;
 public class Comment {
     private int id;
     private int userId;
+    //questionId/commentId/...
     private int entityId;
+    //question/comment/...
     private int entityType;
     private String content;
     private Date createdDate;
+    //不真正删除，只是设置状态被隐藏
     private int status;
 
     public int getId() {

@@ -15,6 +15,7 @@ import java.util.Map;
 
 /**
  * ***********************************************重点
+ * 字典树（前缀树）
  *
  * @Date 2019/4/4 20:48
  */
@@ -22,18 +23,19 @@ import java.util.Map;
 public class SensitiveService implements InitializingBean {
     private static final Logger logger = LoggerFactory.getLogger(SensitiveService.class);
 
-    private static final String DEAFULT_REPLACEMENT = "xxx";
-
+    //替换词
+    private static final String DEFAULT_REPLACEMENT = "***";
 
     //构建Tire树
     private class TrieNode {
         //判断是不是最后一个节点
         private boolean end = false;
 
+        //创建子树
         private Map<Character, TrieNode> subNodes = new HashMap<>();
 
         //指定位置添加节点
-        void addSubNode(Character key, TrieNode node) {
+        private void addSubNode(Character key, TrieNode node) {
             subNodes.put(key, node);
         }
 
@@ -42,11 +44,13 @@ public class SensitiveService implements InitializingBean {
             return subNodes.get(key);
         }
 
-        boolean isKeyWordEnd() {
+        //判断是否为叶子节点
+        private boolean isKeyWordEnd() {
             return end;
         }
 
-        void setKeyWordEnd(boolean end) {
+        //设置叶子节点
+        private void setKeyWordEnd(boolean end) {
             this.end = end;
         }
 
@@ -55,12 +59,13 @@ public class SensitiveService implements InitializingBean {
         }
     }
 
-    //根节点
+    //根节点，空节点
     private TrieNode root = new TrieNode();
 
-    //判断是否是一个符号
+    //判断是否是一个符号：比如空格、符号、颜文字等等
     private boolean isSymbol(char c) {
         int ic = (int) c;
+        //东亚文字：0x2E80 ~ 0x9FFF
         return !CharUtils.isAsciiAlphanumeric(c) && (ic < 0x2E80 || ic > 0x9FFF);
     }
 
@@ -69,13 +74,15 @@ public class SensitiveService implements InitializingBean {
         if (StringUtils.isBlank(text)) {
             return text;
         }
-        String replacement = DEAFULT_REPLACEMENT;
+        String replacement = DEFAULT_REPLACEMENT;
         StringBuilder result = new StringBuilder();
 
+        //临时节点指向根节点
         TrieNode tempNode = root;
         int begin = 0;//回滚数
-        int position = 0;//当前比较的位置
+        int position = 0;//当前比较的位置，它走完就说明判断完了
 
+        //position还没有走到结尾
         while (position < text.length()) {
             char c = text.charAt(position);
             if (isSymbol(c)) {
@@ -94,12 +101,12 @@ public class SensitiveService implements InitializingBean {
                 position = begin + 1;
                 begin = position;
                 tempNode = root;
-            } else if (tempNode.isKeyWordEnd()) {
+            } else if (tempNode.isKeyWordEnd()) {//发现敏感词
                 result.append(replacement);
                 position = position + 1;
                 begin = position;
                 tempNode = root;
-            } else {
+            } else {//tempNode往后走，position也跟着
                 ++position;
             }
         }
@@ -111,19 +118,23 @@ public class SensitiveService implements InitializingBean {
     //添加新的敏感词
     private void addWord(String lineTxt) {
         TrieNode tempNode = root;
+        //遍历每个节点
         for (int i = 0; i < lineTxt.length(); i++) {
             Character c = lineTxt.charAt(i);
             if (isSymbol(c)) {
                 continue;
             }
             TrieNode node = tempNode.getSubNode(c);
+            //如果为空，说明当前节点下面没有节点
             if (node == null) {
+                //新建一个节点
                 node = new TrieNode();
                 tempNode.addSubNode(c, node);
             }
 
             tempNode = node;
 
+            //如果是最后一个字符，那么标记为最后一个节点
             if (i == lineTxt.length() - 1) {
                 tempNode.setKeyWordEnd(true);
             }
@@ -135,6 +146,7 @@ public class SensitiveService implements InitializingBean {
     public void afterPropertiesSet() throws Exception {
         root = new TrieNode();
         try {
+            //IO流读取文本文件中的敏感词
             InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("sensitiveWords.txt");
             InputStreamReader read = new InputStreamReader(is);
             BufferedReader br = new BufferedReader(read);

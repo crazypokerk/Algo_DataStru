@@ -7,11 +7,16 @@ import java.util.Date;
  */
 public class Message {
     private int id;
+    //谁发的
     private int fromId;
+    //发给谁
     private int toId;
+    //发的内容
     private String content;
     private Date createdDate;
+    //是否已读
     private int hasRead;
+    //对话ID
     private String conversationId;
 
     public int getId() {
@@ -63,7 +68,11 @@ public class Message {
     }
 
     public String getConversationId() {
-        return conversationId;
+        if (fromId < toId) {
+            return String.format("%d_%d", fromId, toId);
+        } else {
+            return String.format("%d_%d", toId, fromId);
+        }
     }
 
     public void setConversationId(String conversationId) {

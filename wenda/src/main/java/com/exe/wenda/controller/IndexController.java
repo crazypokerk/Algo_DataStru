@@ -47,8 +47,12 @@ public class IndexController {
         List<String> colors = Arrays.asList(new String[]{"RED", "GREEN", "BLUE"});
         model.addAttribute("colors", colors);
 
-        model.addAttribute("user", new User("ass"));
-
+        Map<String, String> map = new HashMap<>();
+        for (int i = 0; i < 4; ++i) {
+            map.put(String.valueOf(i), String.valueOf(i * i));
+        }
+        model.addAttribute("map", map);
+        model.addAttribute("user", new User("LEE"));
         return "home";
     }
 

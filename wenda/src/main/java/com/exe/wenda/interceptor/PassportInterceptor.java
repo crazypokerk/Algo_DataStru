@@ -18,6 +18,18 @@ import java.util.Date;
 /**
  * @Date 2019/3/29 16:37
  */
+/*
+    拦截器
+
+    客户端：带token的HTTP请求
+
+    服务端：
+    1.根据token获取用户id
+    2.根据用户id获取用户的具体信息
+    3.用户和页面访问权限处理
+    4.渲染页面/跳转页面
+ */
+
 @Component
 public class PassportInterceptor implements HandlerInterceptor {
     @Autowired
@@ -55,6 +67,7 @@ public class PassportInterceptor implements HandlerInterceptor {
 
     @Override
     public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
+        //渲染后，将user放入模板引擎上下文中
         if (modelAndView != null && hostHolder.getUser() != null) {
             modelAndView.addObject("user", hostHolder.getUser());
         }

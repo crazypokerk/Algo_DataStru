@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 /**
  * @Date 2019/4/11 15:20
  */
+/*
+    所有点赞和点踩的业务
+ */
 @Service
 public class LikeService {
     @Autowired
@@ -24,9 +27,10 @@ public class LikeService {
             return 1;
         }
         String disLikeKey = RedisKeyUtil.getDisLikeKey(entityType, entityId);
-        return jedisAdapter.sismember(disLikeKey, String.valueOf(userId)) ? -1 : 0;
+        return jedisAdapter.sismember(disLikeKey, String.valueOf(userId)) ? -1 : 0;//0表示无状态
     }
 
+    //点赞
     public long like(int userId, int entityType, int entityId) {
         String likeKey = RedisKeyUtil.getLikeKey(entityType, entityId);
         jedisAdapter.sadd(likeKey, String.valueOf(userId));
@@ -37,6 +41,7 @@ public class LikeService {
         return jedisAdapter.scard(likeKey);
     }
 
+    //点踩
     public long disLike(int userId, int entityType, int entityId) {
         String disLikeKey = RedisKeyUtil.getDisLikeKey(entityType, entityId);
         jedisAdapter.sadd(disLikeKey, String.valueOf(userId));

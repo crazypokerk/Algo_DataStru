@@ -1,5 +1,8 @@
 package com.exe.wenda.controller;
 
+import com.exe.wenda.async.EventModel;
+import com.exe.wenda.async.EventProducer;
+import com.exe.wenda.async.EventType;
 import com.exe.wenda.model.Comment;
 import com.exe.wenda.model.EntityType;
 import com.exe.wenda.model.HostHolder;
@@ -40,19 +43,27 @@ public class CommentController {
     @Autowired
     SensitiveService sensitiveService;
 
+    @Autowired
+    EventProducer eventProducer;
+
+    //增加评论
     @RequestMapping(path = {"/addComment"}, method = {RequestMethod.POST})
     public String addComment(@RequestParam("questionId") int questionId,
                              @RequestParam("content") String content) {
         try {
+            //过滤content
             content = HtmlUtils.htmlEscape(content);
             content = sensitiveService.filter(content);
-            // 过滤content
             Comment comment = new Comment();
+            //判断用户是否登录
             if (hostHolder.getUser() != null) {
                 comment.setUserId(hostHolder.getUser().getId());
             } else {
+                //可以让重新登录，也可以用匿名用户
+                //return "redirect:/reglogin";
                 comment.setUserId(WendaUtil.ANONYMOUS_USERID);
             }
+            //设置评论信息
             comment.setContent(content);
             comment.setEntityId(questionId);
             comment.setEntityType(EntityType.ENTITY_QUESTION);
@@ -63,10 +74,13 @@ public class CommentController {
             // 更新题目里的评论数量
             int count = commentService.getCommentCount(comment.getEntityId(), comment.getEntityType());
             questionService.updateCommentCount(comment.getEntityId(), count);
-            // 怎么异步化
+
+            eventProducer.fireEvent(new EventModel(EventType.COMMENT).setActorId(comment.getUserId())
+                    .setEntityId(questionId));
+
         } catch (Exception e) {
             logger.error("增加评论失败" + e.getMessage());
         }
-        return "redirect:/question/" + String.valueOf(questionId);
+        return "redirect:/question/" + questionId;
     }
 }

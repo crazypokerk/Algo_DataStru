@@ -46,11 +46,8 @@ public class LikeController {
         //触发点赞事件，将事件发送，设置信息
         eventProducer.fireEvent(new EventModel(EventType.LIKE)
                 .setActorId(hostHolder.getUser().getId()).setEntityId(commentId)
-                .setEntityType(EntityType.ENTITY_COMMENT)
-                .setExt("questionID", String.valueOf(comment.getEntityId()))
-                .setEntityOwnerId(comment.getUserId()));
-
-        //设置扩展字段
+                .setEntityType(EntityType.ENTITY_COMMENT).setEntityOwnerId(comment.getUserId())
+                .setExt("questionId", String.valueOf(comment.getEntityId())));
 
         long likeCount = likeService.like(hostHolder.getUser().getId(), EntityType.ENTITY_COMMENT, commentId);
         return WendaUtil.getJSONString(0, String.valueOf(likeCount));

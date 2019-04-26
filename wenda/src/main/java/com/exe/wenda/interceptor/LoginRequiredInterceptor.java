@@ -14,6 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Created by nowcoder on 2016/7/17.
  */
+/*
+    未登录拦截器
+ */
 @Component
 public class LoginRequiredInterceptor implements HandlerInterceptor {
     @Autowired
@@ -21,7 +24,9 @@ public class LoginRequiredInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
+        //如果未登录，跳转到登录页面
         if (hostHolder.getUser() == null) {
+            //没登陆直接跳转到登录页面，同时把访问的页面作为参数传递过来
             httpServletResponse.sendRedirect("/reglogin?next=" + httpServletRequest.getRequestURI());
         }
         return true;

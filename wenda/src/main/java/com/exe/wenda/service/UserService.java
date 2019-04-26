@@ -5,7 +5,6 @@ import com.exe.wenda.dao.UserDAO;
 import com.exe.wenda.model.LoginTicket;
 import com.exe.wenda.model.User;
 import com.exe.wenda.util.WendaUtil;
-import com.sun.org.apache.regexp.internal.RE;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,6 +22,8 @@ public class UserService {
     @Autowired
     private UserDAO userDAO;
 
+
+    //用来读取ticket
     @Autowired
     private LoginTicketDAO loginTicketDAO;
 
@@ -30,6 +31,7 @@ public class UserService {
         return userDAO.selectByName(name);
     }
 
+    //注册方法  （用户名，用户密码）
     public Map<String, Object> register(String username, String password) {
         Map<String, Object> map = new HashMap<String, Object>();
         if (StringUtils.isBlank(username)) {
@@ -52,14 +54,18 @@ public class UserService {
         // 密码强度
         user = new User();
         user.setName(username);
+        //用UUID随机生成一个盐
         user.setSalt(UUID.randomUUID().toString().substring(0, 5));
+        //生成随机一个头像
         String head = String.format("http://images.nowcoder.com/head/%dt.png", new Random().nextInt(1000));
         user.setHeadUrl(head);
+        //用原有密码+盐 用MD5加密
         user.setPassword(WendaUtil.MD5(password + user.getSalt()));
         userDAO.addUser(user);
 
         // 登陆
         String ticket = addLoginTicket(user.getId());
+        //数据库中表 login_ticket
         map.put("ticket", ticket);
         return map;
     }
@@ -91,16 +97,20 @@ public class UserService {
 
         String ticket = addLoginTicket(user.getId());
         map.put("ticket", ticket);
+        map.put("userId", user.getId());
         return map;
     }
 
+    //用户要登录，增加一个ticket
     private String addLoginTicket(int userId) {
         LoginTicket ticket = new LoginTicket();
         ticket.setUserId(userId);
         Date date = new Date();
+        //设置过期时间
         date.setTime(date.getTime() + 1000 * 3600 * 24);
         ticket.setExpired(date);
         ticket.setStatus(0);
+        //随机生成一个ticket
         ticket.setTicket(UUID.randomUUID().toString().replaceAll("-", ""));
         loginTicketDAO.addTicket(ticket);
         return ticket.getTicket();
@@ -111,6 +121,7 @@ public class UserService {
     }
 
     public void logout(String ticket) {
+        //1代表ticket无效了
         loginTicketDAO.updateStatus(ticket, 1);
     }
 }
