@@ -9,14 +9,16 @@ package SORT;
  * 平均情况下的时间复杂度是：o(n2)
  */
 public class _1_BubbleSort {
-    public static int[] bubbleSort(int[] a, int n) {
+    public static int[] bubbleSort(int[] a, int n) {//n 为元素个数
         if (n <= 1) {
             return a;
         }
 
-        for (int i = 0; i < n; ++i) {
+        //外层循环控制元素个数
+        for (int i = 0; i < n - 1; ++i) {
             boolean flag = false;
-            for (int j = 0; j < n - i - 1; ++j) {
+            //内层循环交换元素
+            for (int j = 0; j < n - 1 - i; ++j) {
                 if (a[j] > a[j + 1]) {
                     int tmp = a[j];
                     a[j] = a[j + 1];

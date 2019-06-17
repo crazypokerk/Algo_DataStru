@@ -1,66 +1,79 @@
 package SORT;
 
 public class _6_QuickSort {
-    // 快速排序，a是数组，n表示数组的大小
-    public static void quickSort(int[] a, int n) {
-        quickSortInternally(a, 0, n - 1);
+    // 快速排序,a是数组,n表示数组的大小
+    public static void sort(int[] arr) {
+        sort(arr, 0, arr.length - 1);
     }
 
-    // 快速排序递归函数，p,r为下标
-    private static void quickSortInternally(int[] a, int p, int r) {
-        if (p >= r) return;
-
-        int q = partition(a, p, r); // 获取分区点
-        quickSortInternally(a, p, q - 1);
-        quickSortInternally(a, q + 1, r);
+    private static void sort(int[] arr, int startIndex, int endIndex) {
+        if (endIndex <= startIndex) {
+            return;
+        }
+        //切分
+        int pivotIndex = partition(arr, startIndex, endIndex);
+        sort(arr, startIndex, pivotIndex - 1);
+        sort(arr, pivotIndex + 1, endIndex);
     }
 
-    private static int partition(int[] a, int p, int r) {
-        int pivot = a[r];
-        int i = p;
-        for (int j = p; j < r; ++j) {
-            if (a[j] < pivot) {
-                if (i == j) {
-                    ++i;
-                } else {
-                    int tmp = a[i];
-                    a[i++] = a[j];
-                    a[j] = tmp;
+    //单边扫描
+    private static int partition(int[] arr, int startIndex, int endIndex) {
+        int pivot = arr[startIndex];//取基准值
+        int mark = startIndex;//Mark初始化为起始下标
+
+        for (int i = startIndex + 1; i <= endIndex; i++) {
+            if (arr[i] < pivot) {
+                //小于基准值 则mark+1,并交换位置。
+                mark++;
+                int p = arr[mark];
+                arr[mark] = arr[i];
+                arr[i] = p;
+            }
+        }
+        //基准值与mark对应元素调换位置
+        arr[startIndex] = arr[mark];
+        arr[mark] = pivot;
+        return mark;
+    }
+
+    //双边扫描
+    private static int partitionV2(int[] arr, int startIndex, int endIndex) {
+        int left = startIndex;
+        int right = endIndex;
+        int pivot = arr[startIndex];//取第一个元素为基准值
+
+        while (true) {
+            //从左往右扫描
+            while (arr[left] <= pivot) {
+                left++;
+                if (left == right) {
+                    break;
                 }
             }
+
+            //从右往左扫描
+            while (pivot < arr[right]) {
+                right--;
+                if (left == right) {
+                    break;
+                }
+            }
+
+            //左右指针相遇
+            if (left >= right) {
+                break;
+            }
+
+            //交换左右数据
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
         }
 
-        int tmp = a[i];
-        a[i] = a[r];
-        a[r] = tmp;
-
-        System.out.println("i=" + i);
-        return i;
+        //将基准值插入序列
+        int temp = arr[startIndex];
+        arr[startIndex] = arr[right];
+        arr[right] = temp;
+        return right;
     }
-
-    //主要思想是用栈来保存子数组的左右边界，代码中用数组模拟栈
-    void quicksort_unrecursion(int[] arr)//快速排序非递归
-    {
-        int[] mystack = new int[2000];//假设递归不超过1000层
-        //栈中保存下次需要排序的子数组的开始位置和结束位置
-        int top = -1;
-        mystack[++top] = 0;
-        mystack[++top] = arr.length - 1;
-        while (top > 0)//栈非空
-        {
-            int high = mystack[top--], low = mystack[top--];
-            int middle = partition(arr, low, high);
-            if (middle + 1 < high)//右边子数组入栈
-            {
-                mystack[++top] = middle + 1;
-                mystack[++top] = high;
-            }
-            if (low < middle - 1)//左边子数组入栈
-            {
-                mystack[++top] = low;
-                mystack[++top] = middle - 1;
-            }
-        }
-    }
-
 }

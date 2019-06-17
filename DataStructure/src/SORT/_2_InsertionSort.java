@@ -14,6 +14,8 @@ public class _2_InsertionSort {
             return a;
         }
 
+        //第一轮，从未排序区域中随机拿出一个数字，既然是随机，那么我们就获取第一个
+        //然后插入到已排序区域中，此时已排序区域为空，那么就不做比较，默认自身有序
         for (int i = 1; i < n; ++i) {
             int value = a[i];
             int j = i - 1;
