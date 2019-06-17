@@ -2,118 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e659675-84e9-4ac0-9b04-f746461a3259" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AdapterPattern/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AdapterPattern/Clinet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AdapterPattern/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AdapterPattern/IphonePlug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AdapterPattern/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AdapterPattern/LaptopPlug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AdapterPattern/Power.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/BenzBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/BenzModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CarModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/TeslaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/TeslaModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/Cocacola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/CondimentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/Ice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/JLaoWang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/Lemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/StarFuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ObserverPattren/Clinet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ObserverPattren/IZhuGeLiang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ObserverPattren/LiuBei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ObserverPattren/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ObserverPattren/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ObserverPattren/SunQuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ObserverPattren/WangSiTu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ObserverPattren/ZhuGeLiang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/AdvTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/PrototypeClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/BossPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/ClinetIH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/ProxyPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/R6GamePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/R6PlayerIH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/ADriverLicense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/BDriverLicense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/CDriverLicense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/Clinet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/License.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/SmallWang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_22_FindKthToTail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_23_EntryNodeOfLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_26_HasSubtree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_27_Mirror.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_28_IsSymmetrical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_32_PrintFromTopToBottom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_39_MoreThanHalfNum_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_40_GetLeastNumbers_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_42_FindGreatestSumOfSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_43_NumberOf1Between1AndN_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_4_Find.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_56_GetNumberOfK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/_66_Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/LikeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/QuestionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/CommentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/MessageDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/EntityType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/LikeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/SensitiveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/JedisAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/RedisKeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sensitiveWords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/base/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/base/event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/base/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popupAdd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popupMsg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/letter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/letterDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/SynchronizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SORT/_5_MergeSort_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/UserInfoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/User_Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/GetMessageCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/ValidateCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/zookeeper/BaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/zookeeper/HelloZK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/zookeeper/WatchOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/comment.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/feed.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/login_ticket.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/message.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/question.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/king.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/user_info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threaddddd/DoubleCheckedLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/SingletonPattern/DoubleCheckedLocking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threaddddd/InstanceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/SingletonPattern/InstanceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threaddddd/Join.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threaddddd/MutilThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threaddddd/Priority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threaddddd/Profiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/chap1/_1_2TwoStacksQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/chap1/_1_2TwoStacksQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/EventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/EventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/EventModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/EventModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/handler/LoginExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/handler/LoginExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/FeedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/FeedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/FollowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/CommentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/CommentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/LoginTicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/LoginTicketDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/MessageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/MessageDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/QuestionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/QuestionDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Feed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/LoginTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/LoginTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/ViewObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/ViewObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/FollowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/FollowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/SensitiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/SensitiveService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/WendaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/WendaUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/JedisAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/JedisAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/aza-0.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/aza-0.1.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/base.fb262f0e.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/base.fb262f0e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/common.fed5411f.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/common.fed5411f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/ga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/ga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/base/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/base/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popupAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popupAdd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popupMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popupMsg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/follow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/follow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-index.d7b54ac7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-index.d7b54ac7.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-main.5d4c554d.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-main.5d4c554d.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/richtexteditor.aa0a4005.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/richtexteditor.aa0a4005.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/vendor.ff76fbae.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/vendor.ff76fbae.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/za-0.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/za-0.1.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/detail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/letter.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/letter.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/result.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/result.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/feeds.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/feeds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/followees.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/followees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/followers.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/followers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/js.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/letter.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/letter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/letterDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/letterDetail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/mails/login_exception.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/mails/login_exception.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/profile.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,8 +99,60 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_5_MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1238">
+              <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SORT/_5_MergeSort_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,6 +163,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System.out.println(&quot;我是synchronized this 锁！&quot;);</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -147,22 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Threadddddd/Cache_test.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/R6GamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/ProxyPlayer.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/Client.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/BossPlayer.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/R6PlayerIH.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/ClinetIH.java" />
-        <option value="$PROJECT_DIR$/src/Threadddddd/lambdaTEST.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/_39_MoreThanHalfNum_Solution.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/_40_GetLeastNumbers_Solution.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/_56_GetNumberOfK.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/AdvTemplate.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/Mail.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/PrototypeClass.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/Client.java" />
-        <option value="$PROJECT_DIR$/src/zzzzzzzzzzzz/hashtablehashmapconcurrent.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/Condiment.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/Milk.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/JLaoWang.java" />
@@ -198,14 +214,35 @@
         <option value="$PROJECT_DIR$/src/DesignPattern/ObserverPattren/WangSiTu.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/ObserverPattren/LiuBei.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/ObserverPattren/SunQuan.java" />
+        <option value="$PROJECT_DIR$/src/dynamicpalan.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/chap1/_1_1MyStack.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/chap1/_1_2TwoStacksQueue.java" />
+        <option value="$PROJECT_DIR$/src/NIO/TestBuffer.java" />
+        <option value="$PROJECT_DIR$/src/NIO/TestBlockingNIO.java" />
+        <option value="$PROJECT_DIR$/src/NIO/_2/TestBlockingNIO.java" />
+        <option value="$PROJECT_DIR$/src/NIO/_1/TestBuffer.java" />
+        <option value="$PROJECT_DIR$/src/NIO/_2/TestNIO_2.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/MaxCommonString.java" />
+        <option value="$PROJECT_DIR$/src/_3sum.java" />
+        <option value="$PROJECT_DIR$/src/Algo/KMP.java" />
+        <option value="$PROJECT_DIR$/src/sadsd.java" />
+        <option value="$PROJECT_DIR$/src/JUC/SynchronizedTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/RainBow.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/SORT/_5_MergeSort_2.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="552" />
-    <option name="y" value="137" />
-    <option name="width" value="1210" />
-    <option name="height" value="785" />
+    <option name="x" value="592" />
+    <option name="width" value="1234" />
+    <option name="height" value="850" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -213,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -230,33 +268,36 @@
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="ObserverPattren" type="462c0819:PsiDirectoryNode" />
+              <item name="SORT" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555033662515" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wenda" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="O:\MyGIT\DataStructure\src\NIO\_1" />
+      <recent name="O:\MyGIT\DataStructure\src\NIO\_2" />
+      <recent name="O:\MyGIT\DataStructure" />
       <recent name="O:\MyGIT\DataStructure\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="O:\MyGIT\DataStructure" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,13 +312,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Clinet (1)">
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.DecoratorPattern.Client" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="DataStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.Test" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.DecoratorPattern.*" />
+          <option name="PATTERN" value="JUC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,79 +333,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clinet (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.ObserverPattren.Clinet" />
+    <configuration name="TestNIO_2.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.ObserverPattren.*" />
+          <option name="PATTERN" value="NIO._2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="NIO._2" />
+      <option name="MAIN_CLASS_NAME" value="NIO._2.TestNIO_2" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clinet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.StrategyPattern.Clinet" />
+    <configuration name="TestNIO_2.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.StrategyPattern.*" />
+          <option name="PATTERN" value="NIO._2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="NIO._2" />
+      <option name="MAIN_CLASS_NAME" value="NIO._2.TestNIO_2" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clinet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.AdapterPattern.Clinet" />
+    <configuration name="TestNIO_2.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.AdapterPattern.*" />
+          <option name="PATTERN" value="NIO._2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gggg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gggg" />
-      <module name="DataStructure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hashtablehashmapconcurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zzzzzzzzzzzz.hashtablehashmapconcurrent" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zzzzzzzzzzzz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="NIO._2" />
+      <option name="MAIN_CLASS_NAME" value="NIO._2.TestNIO_2" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.hashtablehashmapconcurrent" />
-      <item itemvalue="Application.Client (3)" />
-      <item itemvalue="Application.Clinet" />
-      <item itemvalue="Application.gggg" />
-      <item itemvalue="Application.Clinet (1)" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="JUnit.TestNIO_2.test3" />
+      <item itemvalue="JUnit.TestNIO_2.test4" />
+      <item itemvalue="JUnit.TestNIO_2.test5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Clinet (1)" />
-        <item itemvalue="Application.gggg" />
-        <item itemvalue="Application.Clinet" />
-        <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.hashtablehashmapconcurrent" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.TestNIO_2.test5" />
+        <item itemvalue="JUnit.TestNIO_2.test4" />
+        <item itemvalue="JUnit.TestNIO_2.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -399,6 +436,25 @@
       <workItem from="1554892596573" duration="5260000" />
       <workItem from="1554945508863" duration="5467000" />
       <workItem from="1555030088498" duration="4172000" />
+      <workItem from="1559195631604" duration="1963000" />
+      <workItem from="1559614698973" duration="2357000" />
+      <workItem from="1559634451191" duration="2580000" />
+      <workItem from="1559655063104" duration="1930000" />
+      <workItem from="1559696492549" duration="6525000" />
+      <workItem from="1559714899118" duration="129000" />
+      <workItem from="1559715054356" duration="4939000" />
+      <workItem from="1559784511736" duration="2926000" />
+      <workItem from="1559867731502" duration="3644000" />
+      <workItem from="1559920848618" duration="97000" />
+      <workItem from="1559953827058" duration="5901000" />
+      <workItem from="1560039663841" duration="733000" />
+      <workItem from="1560080067544" duration="599000" />
+      <workItem from="1560215530981" duration="1995000" />
+      <workItem from="1560315575895" duration="792000" />
+      <workItem from="1560432127874" duration="424000" />
+      <workItem from="1560559731369" duration="2995000" />
+      <workItem from="1560692135515" duration="1133000" />
+      <workItem from="1560751868477" duration="2152000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1553563398246</created>
@@ -438,14 +494,47 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestBlockingNIO2_server - 2019.06.05 at 14h 02m 02s.xml">
+      <configuration name="TestBlockingNIO2.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBlockingNIO2_client - 2019.06.05 at 14h 02m 02s.xml">
+      <configuration name="TestBlockingNIO2.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBlockingNIO2_client - 2019.06.05 at 14h 02m 11s.xml">
+      <configuration name="TestBlockingNIO2.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNIO_2_test1 - 2019.06.05 at 14h 18m 17s.xml">
+      <configuration name="TestNIO_2.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNIO_2_test2 - 2019.06.05 at 14h 19m 11s.xml">
+      <configuration name="TestNIO_2.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNIO_2_test3 - 2019.06.05 at 14h 20m 00s.xml">
+      <configuration name="TestNIO_2.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNIO_2_test4 - 2019.06.05 at 14h 20m 52s.xml">
+      <configuration name="TestNIO_2.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNIO_2_test4 - 2019.06.05 at 14h 21m 14s.xml">
+      <configuration name="TestNIO_2.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNIO_2_test5 - 2019.06.05 at 14h 21m 53s.xml">
+      <configuration name="TestNIO_2.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNIO_2_test5 - 2019.06.05 at 14h 22m 04s.xml">
+      <configuration name="TestNIO_2.test5" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147138000" />
+    <option name="totallyTimeSpent" value="190952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48" visible="true" weight="0.26407507" />
-      <window_info id="Structure" order="1" sideWeight="0.52" side_tool="true" weight="0.521978" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.16572239" weight="0.3315393" />
+      <window_info id="Structure" order="1" sideWeight="0.83427763" side_tool="true" weight="0.2997988" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -453,7 +542,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.18271954" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.37773722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,14 +550,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32851985" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Graph Database Console" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.31161472" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3266129" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.3101983" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.22946176" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.31538463" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Graph Database" order="6" />
@@ -477,8 +566,8 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48" visible="true" weight="0.2647453" />
-      <window_info id="Structure" order="1" sideWeight="0.52" side_tool="true" weight="0.521978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.16572239" visible="true" weight="0.3315393" />
+      <window_info id="Structure" order="1" sideWeight="0.83427763" side_tool="true" weight="0.2997988" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -486,7 +575,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.24787535" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.37773722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,14 +583,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32851985" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Graph Database Console" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.31161472" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3266129" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.3101983" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.22946176" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.31538463" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Graph Database" order="6" />
@@ -558,666 +647,446 @@
     <option name="LAST_COMMIT_MESSAGE" value="add" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45847">
-          <caret line="2505" column="43" selection-start-line="2505" selection-start-column="43" selection-end-line="2505" selection-end-column="43" />
+        <state relative-caret-position="226">
+          <caret line="782" column="32" selection-start-line="782" selection-start-column="32" selection-end-line="782" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/locks/StampedLock.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2907">
-          <caret line="190" column="13" selection-start-line="190" selection-start-column="13" selection-end-line="190" selection-end-column="13" />
+        <state relative-caret-position="20">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/StarFuck.java">
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/chap1/_1_2TwoStacksQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="540">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/chap1/_1_1MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="150" column="14" selection-start-line="150" selection-start-column="14" selection-end-line="150" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/completableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WithoutHashCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/nio/channels/FileChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="789" column="24" selection-start-line="789" selection-start-column="24" selection-end-line="789" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/TestBuffer.java" />
+    <entry file="file://$PROJECT_DIR$/src/NIO/TestBlockingNIO.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/jre/lib/rt.jar!/sun/nio/ch/PipeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/Client.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="226">
+          <caret line="956" column="18" selection-start-line="956" selection-start-column="18" selection-end-line="956" selection-end-column="18" />
+          <folding>
+            <element signature="e#36393#36394#0" expanded="true" />
+            <element signature="e#36459#36460#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_4_ShellSort.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/nio/CharBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="226">
+          <caret line="857" column="28" selection-start-line="857" selection-start-column="28" selection-end-line="857" selection-end-column="28" />
+          <folding>
+            <element signature="e#23758#23759#0" expanded="true" />
+            <element signature="e#23804#23805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/_1/TestBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/_1/TestChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2822">
+          <caret line="183" column="15" lean-forward="true" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/nio/channels/Pipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2120">
+          <caret line="138" column="32" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/_2/TestBlockingNIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3200">
+          <caret line="235" column="11" selection-start-line="235" selection-start-column="11" selection-end-line="235" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14280">
+          <caret line="754" column="17" selection-start-line="754" selection-start-column="17" selection-end-line="754" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/_2/TestBlockingNIO2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/_2/TestNIO_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/MaxCommonString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/MinimumTotal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_3sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sadsd.java" />
+    <entry file="file://$PROJECT_DIR$/src/JUC/ExecutorsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algo/KMP.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11060">
+          <caret line="582" selection-start-line="582" selection-end-line="582" />
+          <folding>
+            <element signature="e#26957#26958#0" expanded="true" />
+            <element signature="e#27022#27023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/SaleTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/RandomAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6900">
+          <caret line="373" column="23" selection-start-line="373" selection-start-column="23" selection-end-line="373" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+          <folding>
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6960">
+          <caret line="377" column="24" selection-start-line="377" selection-start-column="24" selection-end-line="377" selection-end-column="24" />
+          <folding>
+            <element signature="e#8037#8038#0" expanded="true" />
+            <element signature="e#8065#8066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4720">
+          <caret line="261" column="22" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="22" />
+          <folding>
+            <element signature="e#9208#9209#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/SeasonEnums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/ThreadOrderAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/SynchronizedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="96" column="25" selection-start-line="92" selection-start-column="3" selection-end-line="96" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/RainBow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/LambdaDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/CountryEnums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/DeadLockSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/CallableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4192">
-          <caret line="500" column="22" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="1324" column="22" selection-start-line="1324" selection-start-column="22" selection-end-line="1324" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_2_InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_3_SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        <state relative-caret-position="260">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SORT/_5_MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="1238">
+          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_6_QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/SORT/_5_MergeSort_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/StrategyPattern/ADriverLicense.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/StrategyPattern/BDriverLicense.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/StrategyPattern/CDriverLicense.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/StrategyPattern/SmallWang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/StrategyPattern/Clinet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/StrategyPattern/License.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gggg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="378">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/AdapterPattern/Iphone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/AdapterPattern/Power.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/AdapterPattern/Clinet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/DesignPattern.AdapterPattern.Power">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>DesignPattern.AdapterPattern.Power</OriginalElement>
-          <nodes>
-            <node x="" y="">DesignPattern.AdapterPattern.Power</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="42.0" y="16.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/AdapterPattern/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/DesignPattern.AdapterPattern.Adapter">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>DesignPattern.AdapterPattern.Adapter</OriginalElement>
-          <nodes>
-            <node x="" y="">DesignPattern.AdapterPattern.Laptop</node>
-            <node x="" y="">DesignPattern.AdapterPattern.Iphone</node>
-            <node x="" y="">DesignPattern.AdapterPattern.LaptopPlug</node>
-            <node x="" y="">DesignPattern.AdapterPattern.IphonePlug</node>
-            <node x="" y="">DesignPattern.AdapterPattern.Power</node>
-            <node x="" y="">DesignPattern.AdapterPattern.Adapter</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-101.0" y="100.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/DesignPattern.DecoratorPattern.CondimentDecorator">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>DesignPattern.DecoratorPattern.CondimentDecorator</OriginalElement>
-          <nodes>
-            <node x="" y="">DesignPattern.DecoratorPattern.StarFuck</node>
-            <node x="" y="">DesignPattern.DecoratorPattern.Ice</node>
-            <node x="" y="">DesignPattern.DecoratorPattern.Client</node>
-            <node x="" y="">DesignPattern.DecoratorPattern.Lemon</node>
-            <node x="" y="">DesignPattern.DecoratorPattern.Cocacola</node>
-            <node x="" y="">DesignPattern.DecoratorPattern.Milk</node>
-            <node x="" y="">DesignPattern.DecoratorPattern.CondimentDecorator</node>
-            <node x="" y="">DesignPattern.DecoratorPattern.JLaoWang</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-205.0" y="201.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DecoratorPattern/CondimentDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/PrototypePattern/AdvTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/DesignPattern.PrototypePattern.Mail">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>DesignPattern.PrototypePattern.Mail</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">DesignPattern.PrototypePattern.PrototypeClass</node>
-            <node x="0.0" y="152.0">DesignPattern.PrototypePattern.Client</node>
-            <node x="0.0" y="76.0">DesignPattern.PrototypePattern.AdvTemplate</node>
-            <node x="126.0" y="152.0">DesignPattern.PrototypePattern.Mail</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="33.0" y="76.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/PrototypePattern/Mail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/PrototypePattern/PrototypeClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/DesignPattern.PrototypePattern.PrototypeClass">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>DesignPattern.PrototypePattern.PrototypeClass</OriginalElement>
-          <nodes>
-            <node x="" y="">DesignPattern.PrototypePattern.PrototypeClass</node>
-            <node x="" y="">java.lang.Cloneable</node>
-            <node x="" y="">DesignPattern.PrototypePattern.Mail</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="68.0" y="56.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ProxyPattern/ProxyPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ProxyPattern/R6GamePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/DesignPattern.ProxyPattern.R6PlayerIH">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>DesignPattern.ProxyPattern.R6PlayerIH</OriginalElement>
-          <nodes>
-            <node x="" y="">DesignPattern.ProxyPattern.BossPlayer</node>
-            <node x="" y="">DesignPattern.ProxyPattern.ProxyPlayer</node>
-            <node x="" y="">DesignPattern.ProxyPattern.ClinetIH</node>
-            <node x="" y="">DesignPattern.ProxyPattern.R6GamePlayer</node>
-            <node x="" y="">java.lang.reflect.InvocationHandler</node>
-            <node x="" y="">DesignPattern.ProxyPattern.Client</node>
-            <node x="" y="">DesignPattern.ProxyPattern.R6PlayerIH</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="369.0" y="250.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ProxyPattern/R6PlayerIH.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/AdapterPattern/IphonePlug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/AdapterPattern/LaptopPlug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/AdapterPattern/Laptop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/DesignPattern.AdapterPattern.Laptop">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>DesignPattern.AdapterPattern.Laptop</OriginalElement>
-          <nodes>
-            <node x="" y="">DesignPattern.AdapterPattern.Clinet</node>
-            <node x="" y="">DesignPattern.AdapterPattern.Laptop</node>
-            <node x="" y="">DesignPattern.AdapterPattern.Iphone</node>
-            <node x="" y="">DesignPattern.AdapterPattern.LaptopPlug</node>
-            <node x="" y="">DesignPattern.AdapterPattern.IphonePlug</node>
-            <node x="" y="">DesignPattern.AdapterPattern.Power</node>
-            <node x="" y="">DesignPattern.AdapterPattern.Adapter</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="91.0" y="104.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ObserverPattren/LiuSiTu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.lang.Override">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.lang.Override</OriginalElement>
-          <nodes>
-            <node x="" y="">java.lang.Override</node>
-            <node x="" y="">java.lang.annotation.Annotation</node>
-            <node x="" y="">java.lang.annotation.Target</node>
-            <node x="" y="">java.lang.annotation.Retention</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="137.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ObserverPattren/IZhuGeLiang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ObserverPattren/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ObserverPattren/ZhuGeLiang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ObserverPattren/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ObserverPattren/WangSiTu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ObserverPattren/LiuBei.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ObserverPattren/SunQuan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/DesignPattern.ObserverPattren.SunQuan">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>DesignPattern.ObserverPattren.SunQuan</OriginalElement>
-          <nodes>
-            <node x="891.0" y="125.5">DesignPattern.ObserverPattren.SunQuan</node>
-            <node x="544.3488095238095" y="494.0">DesignPattern.ObserverPattren.Clinet</node>
-            <node x="448.67797619047616" y="0.0">DesignPattern.ObserverPattren.Observer</node>
-            <node x="436.99999999999994" y="125.5">DesignPattern.ObserverPattren.LiuBei</node>
-            <node x="0.0" y="125.5">DesignPattern.ObserverPattren.IZhuGeLiang</node>
-            <node x="198.37499999999994" y="264.0">DesignPattern.ObserverPattren.ZhuGeLiang</node>
-            <node x="636.0" y="125.5">DesignPattern.ObserverPattren.WangSiTu</node>
-            <node x="157.99999999999994" y="114.0">DesignPattern.ObserverPattren.Observable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="DesignPattern.ObserverPattren.Clinet" target="DesignPattern.ObserverPattren.ZhuGeLiang">
-              <point x="-72.5" y="-27.0" />
-              <point x="558.8488095238095" y="474.0" />
-              <point x="260.62499999999994" y="474.0" />
-              <point x="-62.25" y="85.0" />
-            </edge>
-            <edge source="DesignPattern.ObserverPattren.Clinet" target="DesignPattern.ObserverPattren.WangSiTu">
-              <point x="14.5" y="-27.0" />
-              <point x="645.8488095238095" y="454.0" />
-              <point x="753.5" y="454.0" />
-              <point x="0.0" y="38.5" />
-            </edge>
-            <edge source="DesignPattern.ObserverPattren.LiuBei" target="DesignPattern.ObserverPattren.Observer">
-              <point x="0.0" y="-38.5" />
-              <point x="526.5" y="94.0" />
-              <point x="538.1779761904761" y="94.0" />
-              <point x="0.0" y="27.0" />
-            </edge>
-            <edge source="DesignPattern.ObserverPattren.Clinet" target="DesignPattern.ObserverPattren.LiuBei">
-              <point x="-14.5" y="-27.0" />
-              <point x="616.8488095238095" y="454.0" />
-              <point x="526.5" y="454.0" />
-              <point x="0.0" y="38.5" />
-            </edge>
-            <edge source="DesignPattern.ObserverPattren.Clinet" target="DesignPattern.ObserverPattren.Observer">
-              <point x="72.5" y="-27.0" />
-              <point x="703.8488095238095" y="474.0" />
-              <point x="1098.5" y="474.0" />
-              <point x="1098.5" y="74.0" />
-              <point x="614.8922619047619" y="74.0" />
-              <point x="76.71428571428567" y="27.0" />
-            </edge>
-            <edge source="DesignPattern.ObserverPattren.SunQuan" target="DesignPattern.ObserverPattren.Observer">
-              <point x="0.0" y="-38.5" />
-              <point x="989.5" y="84.0" />
-              <point x="589.3208333333332" y="84.0" />
-              <point x="51.14285714285711" y="27.0" />
-            </edge>
-            <edge source="DesignPattern.ObserverPattren.WangSiTu" target="DesignPattern.ObserverPattren.Observer">
-              <point x="0.0" y="-38.5" />
-              <point x="753.5" y="94.0" />
-              <point x="563.7494047619048" y="94.0" />
-              <point x="25.571428571428555" y="27.0" />
-            </edge>
-            <edge source="DesignPattern.ObserverPattren.ZhuGeLiang" target="DesignPattern.ObserverPattren.Observer">
-              <point x="93.375" y="-85.0" />
-              <point x="416.24999999999994" y="244.0" />
-              <point x="426.49999999999994" y="244.0" />
-              <point x="426.49999999999994" y="94.0" />
-              <point x="512.6065476190477" y="94.0" />
-              <point x="-25.571428571428555" y="27.0" />
-            </edge>
-            <edge source="DesignPattern.ObserverPattren.Clinet" target="DesignPattern.ObserverPattren.SunQuan">
-              <point x="43.5" y="-27.0" />
-              <point x="674.8488095238095" y="464.0" />
-              <point x="989.5" y="464.0" />
-              <point x="0.0" y="38.5" />
-            </edge>
-            <edge source="DesignPattern.ObserverPattren.Observable" target="DesignPattern.ObserverPattren.Observer">
-              <point x="0.0" y="-50.0" />
-              <point x="281.49999999999994" y="74.0" />
-              <point x="461.46369047619044" y="74.0" />
-              <point x="-76.71428571428572" y="27.0" />
-            </edge>
-            <edge source="DesignPattern.ObserverPattren.ZhuGeLiang" target="DesignPattern.ObserverPattren.Observable">
-              <point x="-31.125" y="-85.0" />
-              <point x="291.74999999999994" y="244.0" />
-              <point x="281.49999999999994" y="244.0" />
-              <point x="0.0" y="50.0" />
-            </edge>
-            <edge source="DesignPattern.ObserverPattren.ZhuGeLiang" target="DesignPattern.ObserverPattren.IZhuGeLiang">
-              <point x="-93.375" y="-85.0" />
-              <point x="229.49999999999994" y="244.0" />
-              <point x="69.0" y="244.0" />
-              <point x="0.0" y="38.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="208.9999999999999" y="189.0" />
-          <SelectedNodes>
-            <node>DesignPattern.ObserverPattren.SunQuan</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/ObserverPattren/Clinet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DataStructure</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet:javax.servlet-api:4.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
