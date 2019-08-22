@@ -71,7 +71,7 @@ public class FollowService {
 
     //help函数，功能是把Set中的String转成List的Integer
     private List<Integer> getIdFromSet(Set<String> idset) {
-        List<Integer> ids = new ArrayList<>();
+        List<Integer> ids = new ArrayList<Integer>();
         for (String str :
                 idset) {
             ids.add(Integer.parseInt(str));

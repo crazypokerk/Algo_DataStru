@@ -124,4 +124,9 @@ public class UserService {
         //1代表ticket无效了
         loginTicketDAO.updateStatus(ticket, 1);
     }
+
+    public boolean checkUsername(User user) {
+        int f = userDAO.checkUsername(user);
+        return f > 0;
+    }
 }

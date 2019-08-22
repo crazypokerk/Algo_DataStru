@@ -1,10 +1,7 @@
 package com.exe.wenda.controller;
 
 import com.exe.wenda.model.*;
-import com.exe.wenda.service.CommentService;
-import com.exe.wenda.service.FollowService;
-import com.exe.wenda.service.QuestionService;
-import com.exe.wenda.service.UserService;
+import com.exe.wenda.service.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @Date 2019/3/26 15:57
@@ -37,14 +33,15 @@ public class HomeController {
     @Autowired
     HostHolder hostHolder;
 
+
     private List<ViewObject> getQuestions(int userId, int offset, int limit) {
         List<Question> questionList = questionService.getLatestQuestions(userId, offset, limit);
-        List<ViewObject> vos = new ArrayList<>();
+        List<ViewObject> vos = new ArrayList<ViewObject>();
         for (Question question : questionList) {
             ViewObject vo = new ViewObject();
-            vo.set("question", question);
-            vo.set("followCount", followService.getFollowerCount(EntityType.ENTITY_QUESTION, question.getId()));
-            vo.set("user", userService.getUser(question.getUserId()));
+            vo.setObject("question", question);
+            vo.setObject("followCount", followService.getFollowerCount(EntityType.ENTITY_QUESTION, question.getId()));
+            vo.setObject("user", userService.getUser(question.getUserId()));
             vos.add(vo);
         }
         return vos;
@@ -63,16 +60,24 @@ public class HomeController {
 
         User user = userService.getUser(userId);
         ViewObject vo = new ViewObject();
-        vo.set("user", user);
-        vo.set("commentCount", commentService.getUserCommentCount(userId));
-        vo.set("followerCount", followService.getFollowerCount(EntityType.ENTITY_USER, userId));
-        vo.set("followeeCount", followService.getFolloweeCount(userId, EntityType.ENTITY_USER));
+        vo.setObject("user", user);
+        vo.setObject("commentCount", commentService.getUserCommentCount(userId));
+        vo.setObject("" +
+                "", followService.getFollowerCount(EntityType.ENTITY_USER, userId));
+        vo.setObject("followeeCount", followService.getFolloweeCount(userId, EntityType.ENTITY_USER));
         if (hostHolder.getUser() != null) {
-            vo.set("followed", followService.isFollower(hostHolder.getUser().getId(), EntityType.ENTITY_USER, userId));
+            vo.setObject("followed", followService.isFollower(hostHolder.getUser().getId(), EntityType.ENTITY_USER, userId));
         } else {
-            vo.set("followed", false);
+            vo.setObject("followed", false);
         }
         model.addAttribute("profileUser", vo);
-        return "profile";
+
+        return "user_info";
+    }
+
+    @RequestMapping(path = {"/user/{userId}/user_info"}, method = {RequestMethod.GET, RequestMethod.POST})
+    public String setUserInfo(@PathVariable("userId") int userId) {
+
+        return "user_info";
     }
 }

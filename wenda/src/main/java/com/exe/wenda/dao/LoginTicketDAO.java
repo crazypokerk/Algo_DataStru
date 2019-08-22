@@ -26,6 +26,6 @@ public interface LoginTicketDAO {
     LoginTicket selectByTicket(String ticket);
 
     //如果登出，则更新ticket，过期掉
-    @Update({"update ", TABLE_NAME, " set status=#{status} where ticket=#{ticket}"})
+    @Update({"update ", TABLE_NAME, " setObject status=#{status} where ticket=#{ticket}"})
     void updateStatus(@Param("ticket") String ticket, @Param("status") int status);
 }

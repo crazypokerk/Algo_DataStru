@@ -3,19 +3,19 @@ package com.exe.wenda.controller;
 import com.exe.wenda.async.EventModel;
 import com.exe.wenda.async.EventProducer;
 import com.exe.wenda.async.EventType;
+import com.exe.wenda.model.User;
 import com.exe.wenda.service.UserService;
+import com.exe.wenda.util.ValidateCode;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.CookieValue;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
@@ -84,7 +84,7 @@ public class LoginController {
     @RequestMapping(path = {"/login/"}, method = {RequestMethod.POST})
     public String login(Model model, @RequestParam("username") String username,
                         @RequestParam("password") String password,
-                        @RequestParam(value = "next", required = false) String next,
+                         @RequestParam(value = "next", required = false) String next,
                         @RequestParam(value = "rememberme", defaultValue = "false") boolean rememberme,
                         HttpServletResponse response) {
         try {
@@ -109,7 +109,7 @@ public class LoginController {
                     return "redirect:" + next;
                 }
                 return "redirect:/";
-            } else {
+            }else {
                 model.addAttribute("msg", map.get("msg"));
                 return "login";
             }
@@ -126,4 +126,26 @@ public class LoginController {
         userService.logout(ticket);
         return "redirect:/";
     }
+
+    @RequestMapping(value = "/check")
+    public boolean checkUsername(User user) {
+        return userService.checkUsername(user);
+    }
+
+
+    //验证码验证
+    @RequestMapping(value = "/validate", method = {RequestMethod.GET})
+    @ResponseBody
+    public void validate(HttpServletRequest request, HttpServletResponse response) {
+        try {
+            response.setContentType("application/octet-stream");
+            response.addHeader("Content-Disposition", "attachment;filename=" + "vcode.jpeg");
+            String number = ValidateCode.getNumber(4);
+            ValidateCode.getImage(response.getOutputStream(), number);
+        } catch (Exception e) {
+
+        }
+
+    }
+
 }

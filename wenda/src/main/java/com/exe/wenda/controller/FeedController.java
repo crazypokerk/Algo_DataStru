@@ -60,7 +60,7 @@ public class FeedController {
     private String getPullFeeds(Model model) {
         int localUserId = hostHolder.getUser() != null ? hostHolder.getUser().getId() : 0;
         //看关注了多少人
-        List<Integer> followees = new ArrayList<>();
+        List<Integer> followees = new ArrayList<Integer>();
         //如果是登录状态
         if (localUserId != 0) {
             // 关注的人

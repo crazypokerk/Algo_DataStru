@@ -47,7 +47,7 @@ public class IndexController {
         List<String> colors = Arrays.asList(new String[]{"RED", "GREEN", "BLUE"});
         model.addAttribute("colors", colors);
 
-        Map<String, String> map = new HashMap<>();
+        Map<String, String> map = new HashMap<String, String>();
         for (int i = 0; i < 4; ++i) {
             map.put(String.valueOf(i), String.valueOf(i * i));
         }

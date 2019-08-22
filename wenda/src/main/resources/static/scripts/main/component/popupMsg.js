@@ -1,5 +1,5 @@
 /**
- var oPopupAdd = new PopupAdd({
+var oPopupAdd = new PopupAdd({
     data: 初始数据
         toName: String, 姓名
         content: String, 内容
@@ -14,24 +14,24 @@
     Base.mix(PopupMsg, Component, {
         _tpl: [
             '<div class="zh-add-question-form" style="margin:0;">',
-            '<div class="zg-section-big clearfix">',
-            '<div class="add-question-section-title">发给：</div>',
-            '<div class="zg-form-text-input add-question-title-form" style="position: relative;">',
-            '<input type="text" class="js-name zg-editor-input zu-seamless-input-origin-element" placeholder="姓名" style="height:22px;min-height:auto;"></textarea>',
-            '</div>',
-            '</div>',
-            '<div class="zg-section-big">',
-            '<div class="add-question-section-title">内容：</div>',
-            '<div id="zh-question-suggest-detail-container" class="zm-editable-status-editing">',
-            '<div class="zm-editable-editor-wrap no-toolbar">',
-            '<div class="zm-editable-editor-outer">',
-            '<div class="zm-editable-editor-field-wrap">',
-            '<textarea class="js-content zm-editable-editor-field-element editable" placeholder="私信内容" style="font-style:italic;width:98%;"></textarea>',
-            '</div>',
-            '</div>',
-            '</div>',
-            '</div>',
-            '</div>',
+                '<div class="zg-section-big clearfix">',
+                    '<div class="add-question-section-title">发给：</div>',
+                    '<div class="zg-form-text-input add-question-title-form" style="position: relative;">',
+                        '<input type="text" class="js-name zg-editor-input zu-seamless-input-origin-element" placeholder="姓名" style="height:22px;min-height:auto;"></textarea>',
+                    '</div>',
+                '</div>',
+                '<div class="zg-section-big">',
+                    '<div class="add-question-section-title">内容：</div>',
+                    '<div id="zh-question-suggest-detail-container" class="zm-editable-status-editing">',
+                        '<div class="zm-editable-editor-wrap no-toolbar">',
+                            '<div class="zm-editable-editor-outer">',
+                                '<div class="zm-editable-editor-field-wrap">',
+                                    '<textarea class="js-content zm-editable-editor-field-element editable" placeholder="私信内容" style="font-style:italic;width:98%;"></textarea>',
+                                '</div>',
+                            '</div>',
+                        '</div>',
+                    '</div>',
+                '</div>',
             '</div>'].join(''),
         listeners: [{
             name: 'render',

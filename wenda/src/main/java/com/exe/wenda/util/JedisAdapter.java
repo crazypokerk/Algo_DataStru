@@ -26,7 +26,7 @@ public class JedisAdapter implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        pool = new JedisPool("192.168.120.130", 6379);
+        pool = new JedisPool("192.168.0.5", 6379);
     }
 
     public long sadd(String key, String value) {

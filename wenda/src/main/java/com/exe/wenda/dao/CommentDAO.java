@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
+
 @Mapper
 public interface CommentDAO {
     String TABLE_NAME = " comment ";
@@ -27,7 +28,7 @@ public interface CommentDAO {
     int getCommentCount(@Param("entityId") int entityId, @Param("entityType") int entityType);
 
     //更新评论状态
-    @Update({"update comment set status=#{status} where id=#{id}"})
+    @Update({"update comment setObject status=#{status} where id=#{id}"})
     int updateStatus(@Param("id") int id, @Param("status") int status);
 
     @Select({"select count(id) from ", TABLE_NAME, " where user_id=#{userId}"})

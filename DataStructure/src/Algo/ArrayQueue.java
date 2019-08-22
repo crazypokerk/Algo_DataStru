@@ -5,10 +5,10 @@ public class ArrayQueue {
     private int n;
     private int head = 0;
     private int tail = 0;
-
-    public ArrayQueue(int capaticy) {
-        items = new String[capaticy];
-        n = capaticy;
+	
+	public ArrayQueue(int capacity) {
+		items = new String[capacity];
+		n = capacity;
     }
 
     //入队

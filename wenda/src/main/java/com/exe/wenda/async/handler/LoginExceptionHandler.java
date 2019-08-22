@@ -23,16 +23,14 @@ public class LoginExceptionHandler implements EventHandler {
     @Autowired
     MailSender mailSender;
 
-    @Override
     public void doHandle(EventModel model) {
         //xxxx   判断该用户是否登录异常
-        Map<String, Object> map = new HashMap<>();
+        Map<String, Object> map = new HashMap<String, Object>();
         //传入username
         map.put("username", model.getExt("username"));
         mailSender.sendWithHTMLTemplate(model.getExt("email"), "登陆IP异常", "mails/login_exception.html", map);
     }
 
-    @Override
     public List<EventType> getSupportEventTypes() {
         return Arrays.asList(EventType.LOGIN);
     }

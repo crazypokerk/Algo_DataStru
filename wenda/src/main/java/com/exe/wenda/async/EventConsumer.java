@@ -33,12 +33,11 @@ public class EventConsumer implements InitializingBean, ApplicationContextAware 
     JedisAdapter jedisAdapter;
 
     //当从队列里面取出一个Event的时候，看EventType是谁，找对处理该Event对应的那一批EventHandler
-    private Map<EventType, List<EventHandler>> config = new HashMap<>();
+    private Map<EventType, List<EventHandler>> config = new HashMap<EventType, List<EventHandler>>();
     //SPRING上下文
     private ApplicationContext applicationContext;
 
     //在启动的时候就要初始化config
-    @Override
     public void afterPropertiesSet() throws Exception {
         //找出所有EventHandler接口的实现类
         Map<String, EventHandler> beans = applicationContext.getBeansOfType(EventHandler.class);
@@ -61,7 +60,6 @@ public class EventConsumer implements InitializingBean, ApplicationContextAware 
             可以使用线程池替换
          */
         Thread thread = new Thread(new Runnable() {
-            @Override
             public void run() {
                 while (true) {
                     //从Redis中取信息
@@ -92,7 +90,7 @@ public class EventConsumer implements InitializingBean, ApplicationContextAware 
         thread.start();
     }
 
-    @Override
+
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext = applicationContext;
     }

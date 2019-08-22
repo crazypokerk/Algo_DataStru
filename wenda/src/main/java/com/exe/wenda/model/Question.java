@@ -1,63 +1,36 @@
 package com.exe.wenda.model;
 
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.Date;
 
 /**
  * @Date 2019/3/26 15:13
  */
 public class Question {
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private int id;
+
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private String title;
+
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private String content;
+
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private Date createdDate;
+
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private int userId;
+
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private int commentCount;
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
-    }
-
-    public Date getCreatedDate() {
-        return createdDate;
-    }
-
-    public void setCreatedDate(Date createdDate) {
-        this.createdDate = createdDate;
-    }
-
-    public int getUserId() {
-        return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
-    }
-
-    public int getCommentCount() {
-        return commentCount;
-    }
-
-    public void setCommentCount(int commentCount) {
-        this.commentCount = commentCount;
-    }
 }

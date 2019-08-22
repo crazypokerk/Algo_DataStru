@@ -22,7 +22,7 @@ public class EventModel {
     //被触发的对象和某人相关的ID
     private int entityOwnerId;
     //扩展的字段
-    private Map<String, String> exts = new HashMap<>();
+    private Map<String, String> exts = new HashMap<String, String>();
 
     //retrun this 是为了方便后面链式编程，可以一直点调用方法
 

@@ -11,7 +11,6 @@ import com.exe.wenda.service.UserService;
 import com.exe.wenda.util.WendaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
@@ -106,7 +105,7 @@ public class FollowController {
                 .setEntityType(EntityType.ENTITY_QUESTION).setEntityOwnerId(q.getUserId()));
 
         //向前端页面返回关注人信息
-        Map<String, Object> info = new HashMap<>();
+        Map<String, Object> info = new HashMap<String, Object>();
         info.put("headUrl", hostHolder.getUser().getHeadUrl());
         info.put("name", hostHolder.getUser().getName());
         info.put("id", hostHolder.getUser().getId());
@@ -133,7 +132,7 @@ public class FollowController {
                 .setActorId(hostHolder.getUser().getId()).setEntityId(questionId)
                 .setEntityType(EntityType.ENTITY_QUESTION).setEntityOwnerId(q.getUserId()));
 
-        Map<String, Object> info = new HashMap<>();
+        Map<String, Object> info = new HashMap<String, Object>();
         info.put("id", hostHolder.getUser().getId());
         info.put("count", followService.getFollowerCount(EntityType.ENTITY_QUESTION, questionId));
         return WendaUtil.getJSONString(ret ? 0 : 1, info);
@@ -179,15 +178,15 @@ public class FollowController {
                 continue;
             }
             ViewObject vo = new ViewObject();
-            vo.set("user", user);
-            vo.set("commentCount", commentService.getUserCommentCount(uid));
-            vo.set("followerCount", followService.getFollowerCount(EntityType.ENTITY_USER, uid));
-            vo.set("followeeCount", followService.getFolloweeCount(uid, EntityType.ENTITY_USER));
+            vo.setObject("user", user);
+            vo.setObject("commentCount", commentService.getUserCommentCount(uid));
+            vo.setObject("followerCount", followService.getFollowerCount(EntityType.ENTITY_USER, uid));
+            vo.setObject("followeeCount", followService.getFolloweeCount(uid, EntityType.ENTITY_USER));
             //等于0说明没有登录
             if (localUserId != 0) {
-                vo.set("followed", followService.isFollower(localUserId, EntityType.ENTITY_USER, uid));
+                vo.setObject("followed", followService.isFollower(localUserId, EntityType.ENTITY_USER, uid));
             } else {
-                vo.set("followed", false);
+                vo.setObject("followed", false);
             }
             userInfos.add(vo);
         }

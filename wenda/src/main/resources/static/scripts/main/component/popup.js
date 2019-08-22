@@ -1,5 +1,5 @@
 /**
- var oPopup = new Popup({
+var oPopup = new Popup({
    title: String, 标题
    content: String, 内容
    width: Number, 宽度
@@ -19,20 +19,20 @@
         zIndex: 100,
         _tpl: [
             '<div class="modal-dialog absolute-position" style="margin:0;padding:0;">',
-            '<div class="modal-dialog-title js-head">',
-            '<span class="modal-dialog-title-text js-title">#{title}</span>',
-            '<span class="modal-dialog-title-close js-close"></span>',
-            '</div>',
-            '<div class="modal-dialog-content">',
-            '<div class="zh-add-question-form">',
-            '<div class="js-content">#{content}</div>',
-            '<div class="zm-command js-footer">',
-            '<span style="display:none;margin-left:10px;line-height:30px;float:left;color:#c33;" class="js-error"></span>',
-            '<a href="javascript:void(0);" class="zm-command-cancel js-cancel">#{cancelTxt}</a>',
-            '<a href="javascript:void(0);" class="zg-r5px zu-question-form-add zg-btn-blue js-ok">#{okTxt}</a>',
-            '</div>',
-            '</div>',
-            '</div>',
+                '<div class="modal-dialog-title js-head">',
+                    '<span class="modal-dialog-title-text js-title">#{title}</span>',
+                    '<span class="modal-dialog-title-close js-close"></span>',
+                '</div>',
+                '<div class="modal-dialog-content">',
+                    '<div class="zh-add-question-form">',
+                        '<div class="js-content">#{content}</div>',
+                        '<div class="zm-command js-footer">',
+                            '<span style="display:none;margin-left:10px;line-height:30px;float:left;color:#c33;" class="js-error"></span>',
+                            '<a href="javascript:void(0);" class="zm-command-cancel js-cancel">#{cancelTxt}</a>',
+                            '<a href="javascript:void(0);" class="zg-r5px zu-question-form-add zg-btn-blue js-ok">#{okTxt}</a>',
+                        '</div>',
+                    '</div>',
+                '</div>',
             '</div>'].join(''),
         listeners: [{
             name: 'render',

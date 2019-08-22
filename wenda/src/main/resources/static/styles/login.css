@@ -1,9 +1,9 @@
-body, ul, ol, li, p, h1, h2, h3, h4, h5 {
+body,ul,ol,li,p,h1,h2,h3,h4,h5 {
     margin: 0;
     padding: 0
 }
 
-button, input, select, textarea {
+button,input,select,textarea {
     margin: 0;
     font-family: inherit;
     font-size: 100%
@@ -29,10 +29,8 @@ a:hover {
 }
 object:not([data]) {
     display: none
-}
-
-[hidden] {
-    display: none !important
+}[hidden] {
+    display: none!important
 }
 
 .hidden {
@@ -76,7 +74,7 @@ object:not([data]) {
     *zoom: 1
 }
 
-.clearfix:before, .clearfix:after {
+.clearfix:before,.clearfix:after {
     display: table;
     content: ""
 }
@@ -107,24 +105,24 @@ object:not([data]) {
     margin: -1px;
     padding: 0;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+    clip: rect(0,0,0,0);
     border: 0
 }
 
-.z-ico-play-video, .z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-community:hover, .z-ico-community, .z-ico-video, .z-ico-extern-gray, .z-ico-extern-blue {
+.z-ico-play-video,.z-ico-wechat-right-panel,.z-ico-show-password,.z-ico-hide-password,.z-ico-weibo,.z-ico-wechat-unlogin-page,.z-ico-weibo-share,.z-ico-wechat-share,.z-ico-green-check,.z-ico-gray-check,.z-ico-daily-share,.z-ico-qq,.z-ico-wechat,.z-ico-textedit,.z-ico-shameimaru-close,.z-ico-left,.z-ico-close,.z-ico-community:hover,.z-ico-community,.z-ico-video,.z-ico-extern-gray,.z-ico-extern-blue {
     background-image: url(/static/revved/img/compiled/icons_a9b07ecead.261e7c3b.png);
     background-repeat: no-repeat;
     background-size: 108px 93px
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 1), screen and (min--moz-device-pixel-ratio: 1), screen and (min-device-pixel-ratio: 1), screen and (min-resolution: 1dppx) {
-    .z-ico-play-video, .z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-community:hover, .z-ico-community, .z-ico-video, .z-ico-extern-gray, .z-ico-extern-blue {
+@media screen and (-webkit-min-device-pixel-ratio:1),screen and (min--moz-device-pixel-ratio:1),screen and (min-device-pixel-ratio:1),screen and (min-resolution:1dppx) {
+    .z-ico-play-video,.z-ico-wechat-right-panel,.z-ico-show-password,.z-ico-hide-password,.z-ico-weibo,.z-ico-wechat-unlogin-page,.z-ico-weibo-share,.z-ico-wechat-share,.z-ico-green-check,.z-ico-gray-check,.z-ico-daily-share,.z-ico-qq,.z-ico-wechat,.z-ico-textedit,.z-ico-shameimaru-close,.z-ico-left,.z-ico-close,.z-ico-community:hover,.z-ico-community,.z-ico-video,.z-ico-extern-gray,.z-ico-extern-blue {
         background-image: url(/static/revved/img/compiled/icons_a9b07ecead.261e7c3b.png)
     }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
-    .z-ico-play-video, .z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-community:hover, .z-ico-community, .z-ico-video, .z-ico-extern-gray, .z-ico-extern-blue {
+@media screen and (-webkit-min-device-pixel-ratio:2),screen and (min--moz-device-pixel-ratio:2),screen and (min-device-pixel-ratio:2),screen and (min-resolution:2dppx) {
+    .z-ico-play-video,.z-ico-wechat-right-panel,.z-ico-show-password,.z-ico-hide-password,.z-ico-weibo,.z-ico-wechat-unlogin-page,.z-ico-weibo-share,.z-ico-wechat-share,.z-ico-green-check,.z-ico-gray-check,.z-ico-daily-share,.z-ico-qq,.z-ico-wechat,.z-ico-textedit,.z-ico-shameimaru-close,.z-ico-left,.z-ico-close,.z-ico-community:hover,.z-ico-community,.z-ico-video,.z-ico-extern-gray,.z-ico-extern-blue {
         background-image: url(/static/revved/img/compiled/icons@2x_a9b07ecead.58bad5a6.png)
     }
 }
@@ -231,7 +229,7 @@ object:not([data]) {
     height: 16px
 }
 
-.z-ico-container:hover .z-ico-community, .z-ico-community:hover {
+.z-ico-container:hover .z-ico-community,.z-ico-community:hover {
     background-position: -67px -39px;
     width: 14px;
     height: 13px
@@ -387,13 +385,13 @@ object:not([data]) {
     animation-fill-mode: both
 }
 
-.zg-btn-blue, .zg-btn-green, .zg-btn-red, .zg-btn-white, .zg-btn-disabled {
+.zg-btn-blue,.zg-btn-green,.zg-btn-red,.zg-btn-white,.zg-btn-disabled {
     font-size: 14px;
     line-height: 1.7;
-    text-decoration: none !important;
+    text-decoration: none!important;
     vertical-align: middle;
     display: inline-block;
-    _display: inline !important;
+    _display: inline!important;
     text-align: center;
     padding: 4px 10px;
     cursor: pointer;
@@ -402,16 +400,16 @@ object:not([data]) {
     box-sizing: border-box
 }
 
-.zg-btn-blue.disabled, .zg-btn-green.disabled, .zg-btn-red.disabled, .zg-btn-white.disabled, .zg-btn-disabled.disabled, .zg-btn-blue[disabled], .zg-btn-green[disabled], .zg-btn-red[disabled], .zg-btn-white[disabled], .zg-btn-disabled[disabled] {
+.zg-btn-blue.disabled,.zg-btn-green.disabled,.zg-btn-red.disabled,.zg-btn-white.disabled,.zg-btn-disabled.disabled,.zg-btn-blue[disabled],.zg-btn-green[disabled],.zg-btn-red[disabled],.zg-btn-white[disabled],.zg-btn-disabled[disabled] {
     background: #eee;
-    color: #888 !important;
+    color: #888!important;
     border: 1px solid #ddd;
     cursor: not-allowed;
     text-shadow: none;
-    box-shadow: none !important
+    box-shadow: none!important
 }
 
-.zg-btn-blue.disabled:active, .zg-btn-green.disabled:active, .zg-btn-red.disabled:active, .zg-btn-white.disabled:active, .zg-btn-disabled.disabled:active, .zg-btn-blue[disabled]:active, .zg-btn-green[disabled]:active, .zg-btn-red[disabled]:active, .zg-btn-white[disabled]:active, .zg-btn-disabled[disabled]:active {
+.zg-btn-blue.disabled:active,.zg-btn-green.disabled:active,.zg-btn-red.disabled:active,.zg-btn-white.disabled:active,.zg-btn-disabled.disabled:active,.zg-btn-blue[disabled]:active,.zg-btn-green[disabled]:active,.zg-btn-red[disabled]:active,.zg-btn-white[disabled]:active,.zg-btn-disabled[disabled]:active {
     background: #eee;
     border-color: #ccc
 }
@@ -421,7 +419,7 @@ object:not([data]) {
     text-align: center;
     min-width: 78px;
     font-size: 12px;
-    text-decoration: none !important;
+    text-decoration: none!important;
     padding: 1px;
     font-weight: 400;
     line-height: 18px;
@@ -431,7 +429,7 @@ object:not([data]) {
 }
 
 .zg-btn-disabled {
-    cursor: default !important
+    cursor: default!important
 }
 
 .zg-btn-white.zu-button-more {
@@ -445,72 +443,72 @@ object:not([data]) {
     cursor: not-allowed
 }
 
-.zm-command > .zg-btn-blue, .zm-command > .zg-btn-green, .zm-command > .zg-btn-white, .zm-command > .zg-btn-disabled {
+.zm-command>.zg-btn-blue,.zm-command>.zg-btn-green,.zm-command>.zg-btn-white,.zm-command>.zg-btn-disabled {
     vertical-align: baseline
 }
 
 .zg-btn-blue {
-    color: #fff !important;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+    color: #fff!important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
     background: #1472cf;
-    background: -webkit-linear-gradient(top, #1d7fe2, #0865c2);
-    background: linear-gradient(to bottom, #1d7fe2, #0865c2);
+    background: -webkit-linear-gradient(top,#1d7fe2,#0865c2);
+    background: linear-gradient(to bottom,#1d7fe2,#0865c2);
     border: 1px solid #0D6EB8;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, .2) inset, 0 1px 0 rgba(0, 0, 0, .2)
+    box-shadow: 0 1px 0 rgba(255,255,255,.2) inset,0 1px 0 rgba(0,0,0,.2)
 }
 
 .zg-btn-blue:active {
     background: #1a70c7;
-    background: -webkit-linear-gradient(top, #1a79d9, #1a70c7);
-    background: linear-gradient(to bottom, #1a79d9, #1a70c7);
-    box-shadow: 0 1px 2px rgba(255, 255, 255, .15) inset
+    background: -webkit-linear-gradient(top,#1a79d9,#1a70c7);
+    background: linear-gradient(to bottom,#1a79d9,#1a70c7);
+    box-shadow: 0 1px 2px rgba(255,255,255,.15) inset
 }
 
 .zg-btn-red {
-    color: #fff !important;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+    color: #fff!important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
     background: #e55345;
-    background: -webkit-linear-gradient(top, #e96249, #e03c40);
-    background: linear-gradient(to bottom, #e96249, #e03c40);
+    background: -webkit-linear-gradient(top,#e96249,#e03c40);
+    background: linear-gradient(to bottom,#e96249,#e03c40);
     border: 1px solid #cf2b28;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, .2) inset, 0 1px 0 rgba(0, 0, 0, .2)
+    box-shadow: 0 1px 0 rgba(255,255,255,.2) inset,0 1px 0 rgba(0,0,0,.2)
 }
 
 .zg-btn-red:active {
     background: #e55039;
-    background: -webkit-linear-gradient(top, #e7563b, #e04735);
-    background: linear-gradient(to bottom, #e7563b, #e04735);
+    background: -webkit-linear-gradient(top,#e7563b,#e04735);
+    background: linear-gradient(to bottom,#e7563b,#e04735);
     box-shadow: 0 1px 2px #9C3522 inset
 }
 
-.zg-btn-green, .zg-btn-follow {
+.zg-btn-green,.zg-btn-follow {
     width: auto;
     _width: 78px;
     min-width: 78px;
-    color: #3e5e00 !important;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, .3);
+    color: #3e5e00!important;
+    text-shadow: 0 1px 0 rgba(255,255,255,.3);
     background: #8ab923;
-    background: -webkit-linear-gradient(top, #adda4d, #86b846);
-    background: linear-gradient(to bottom, #adda4d, #86b846);
+    background: -webkit-linear-gradient(top,#adda4d,#86b846);
+    background: linear-gradient(to bottom,#adda4d,#86b846);
     border: 1px solid #6d8f29;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 1px 0 rgba(0, 0, 0, .2)
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,0 1px 0 rgba(0,0,0,.2)
 }
 
-.zg-btn-green:active, .zg-btn-follow:active {
+.zg-btn-green:active,.zg-btn-follow:active {
     background: #79a814;
-    background: -webkit-linear-gradient(top, #9ac244, #78a53e);
-    background: linear-gradient(to bottom, #9ac244, #78a53e);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .3) inset
+    background: -webkit-linear-gradient(top,#9ac244,#78a53e);
+    background: linear-gradient(to bottom,#9ac244,#78a53e);
+    box-shadow: 0 1px 2px rgba(0,0,0,.3) inset
 }
 
 .zg-btn-white {
-    color: #666 !important;
+    color: #666!important;
     text-shadow: 0 1px 0 #fff;
     background: #f1f1f2;
-    background: -webkit-linear-gradient(top, #f8f8f9, #e6e6e8);
-    background: linear-gradient(to bottom, #f8f8f9, #e6e6e8);
+    background: -webkit-linear-gradient(top,#f8f8f9,#e6e6e8);
+    background: linear-gradient(to bottom,#f8f8f9,#e6e6e8);
     border: 1px solid #bbb;
-    box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, .1)
+    box-shadow: 0 1px 0 #fff inset,0 1px 0 rgba(0,0,0,.1)
 }
 
 .zg-btn-white:active {
@@ -518,13 +516,13 @@ object:not([data]) {
     box-shadow: none
 }
 
-.zg-btn-unfollow, .zg-btn-disabled {
+.zg-btn-unfollow,.zg-btn-disabled {
     background: #eee;
     color: #888;
     border: 1px solid #ddd
 }
 
-.zg-btn-unfollow:active, .zg-btn-disabled:active {
+.zg-btn-unfollow:active,.zg-btn-disabled:active {
     border-color: #ccc
 }
 
@@ -532,7 +530,7 @@ object:not([data]) {
     color: #999
 }
 
-.zg-unfollow > .z-icon-follow {
+.zg-unfollow>.z-icon-follow {
     display: none
 }
 
@@ -544,17 +542,17 @@ html.no-touchevents .zg-follow:hover {
     color: #25bb9b
 }
 
-.zg-btn-blue.zg-btn-justify, .zg-btn-green.zg-btn-justify, .zg-btn-white.zg-btn-justify {
-    font-size: 13px !important;
-    line-height: 18px !important
+.zg-btn-blue.zg-btn-justify,.zg-btn-green.zg-btn-justify,.zg-btn-white.zg-btn-justify {
+    font-size: 13px!important;
+    line-height: 18px!important
 }
 
-.zg-btn-blue, .zg-btn-green, .zg-btn-white, a.follow {
+.zg-btn-blue,.zg-btn-green,.zg-btn-white,a.follow {
     *line-height: 20px
 }
 
 .small {
-    *line-height: 18px !important
+    *line-height: 18px!important
 }
 
 .goog-link-button {
@@ -619,7 +617,7 @@ html.modal-open.flexbox .modal-wrapper {
     max-width: 100%;
     border-radius: 8px;
     border: 1px solid #888;
-    box-shadow: 0 0 80px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 0 80px 0 rgba(0,0,0,.4);
     background: #fff;
     text-align: left
 }
@@ -654,9 +652,9 @@ html.modal-open.flexbox .modal-wrapper .modal-dialog.centered {
     left: 0;
     top: 0;
     z-index: 95;
-    min-height: 100% !important;
-    width: 100% !important;
-    height: 100% !important;
+    min-height: 100%!important;
+    width: 100%!important;
+    height: 100%!important;
     overflow: visible;
     background: #666
 }
@@ -680,11 +678,11 @@ html.modal-open.flexbox .modal-wrapper .modal-dialog.centered {
     padding: 10px 15px;
     line-height: 14px;
     background: #1D7FE2;
-    background: -webkit-linear-gradient(top, #1D7FE2, #0865C2);
-    background: linear-gradient(to bottom, #1D7FE2, #0865C2);
+    background: -webkit-linear-gradient(top,#1D7FE2,#0865C2);
+    background: linear-gradient(to bottom,#1D7FE2,#0865C2);
     border: 1px solid #0D6EB8;
     border-radius: 6px 6px 0 0;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, .1) inset, 0 1px 1px rgba(0, 0, 0, .2)
+    box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,0 1px 1px rgba(0,0,0,.2)
 }
 
 .modal-dialog-title-draggable {
@@ -693,7 +691,7 @@ html.modal-open.flexbox .modal-wrapper .modal-dialog.centered {
 
 .modal-dialog-title-text {
     color: #fff;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
     font-size: 15px;
     font-weight: 700
 }
@@ -722,7 +720,7 @@ html.no-touchevents .modal-dialog-buttons button[name=cancel]:hover {
     text-decoration: underline
 }
 
-.modal-dialog-buttons button + button {
+.modal-dialog-buttons button+button {
     margin-left: 1em
 }
 
@@ -745,45 +743,45 @@ html.no-touchevents .modal-dialog-buttons button[name=cancel]:hover {
 .goog-buttonset-default {
     font-size: 14px;
     line-height: 1.7;
-    text-decoration: none !important;
+    text-decoration: none!important;
     vertical-align: middle;
     display: inline-block;
-    _display: inline !important;
+    _display: inline!important;
     text-align: center;
     padding: 4px 10px;
     cursor: pointer;
     border-radius: 3px;
     white-space: nowrap;
     box-sizing: border-box;
-    color: #fff !important;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+    color: #fff!important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
     background: #1472cf;
-    background: -webkit-linear-gradient(top, #1d7fe2, #0865c2);
-    background: linear-gradient(to bottom, #1d7fe2, #0865c2);
+    background: -webkit-linear-gradient(top,#1d7fe2,#0865c2);
+    background: linear-gradient(to bottom,#1d7fe2,#0865c2);
     border: 1px solid #0D6EB8;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, .2) inset, 0 1px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 0 rgba(255,255,255,.2) inset,0 1px 0 rgba(0,0,0,.2);
     *line-height: 20px
 }
 
-.goog-buttonset-default.disabled, .goog-buttonset-default[disabled] {
+.goog-buttonset-default.disabled,.goog-buttonset-default[disabled] {
     background: #eee;
-    color: #888 !important;
+    color: #888!important;
     border: 1px solid #ddd;
     cursor: not-allowed;
     text-shadow: none;
-    box-shadow: none !important
+    box-shadow: none!important
 }
 
-.goog-buttonset-default.disabled:active, .goog-buttonset-default[disabled]:active {
+.goog-buttonset-default.disabled:active,.goog-buttonset-default[disabled]:active {
     background: #eee;
     border-color: #ccc
 }
 
 .goog-buttonset-default:active {
     background: #1a70c7;
-    background: -webkit-linear-gradient(top, #1a79d9, #1a70c7);
-    background: linear-gradient(to bottom, #1a79d9, #1a70c7);
-    box-shadow: 0 1px 2px rgba(255, 255, 255, .15) inset
+    background: -webkit-linear-gradient(top,#1a79d9,#1a70c7);
+    background: linear-gradient(to bottom,#1a79d9,#1a70c7);
+    box-shadow: 0 1px 2px rgba(255,255,255,.15) inset
 }
 
 .modal-dialog .textarea {
@@ -791,7 +789,7 @@ html.no-touchevents .modal-dialog-buttons button[name=cancel]:hover {
     padding: 8px 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: inset 0 0 4px 0 rgba(0,0,0,.1);
     box-sizing: border-box
 }
 
@@ -811,7 +809,7 @@ html.no-touchevents .modal-dialog-buttons button[name=cancel]:hover {
     left: 0;
     top: 0;
     background-color: #fff;
-    opacity: 0 !important;
+    opacity: 0!important;
     -ms-filter: "alpha(Opacity=0)";
     z-index: 95;
     -webkit-transition: opacity .2s ease-out;
@@ -819,13 +817,13 @@ html.no-touchevents .modal-dialog-buttons button[name=cancel]:hover {
 }
 
 .mutiview-dialog-bg.show {
-    opacity: .9 !important;
+    opacity: .9!important;
     -ms-filter: "alpha(Opacity=90)"
 }
 
-@media (max-width: 450px) {
+@media (max-width:450px) {
     .mutiview-dialog-bg.show {
-        opacity: 1 !important;
+        opacity: 1!important;
         -ms-filter: "alpha(Opacity=100)"
     }
 }
@@ -838,15 +836,15 @@ html.no-touchevents .modal-dialog-buttons button[name=cancel]:hover {
     background-color: #fff;
     border: 1px solid #cbcbcb;
     border-radius: 5px;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.3);
     outline: 0;
     z-index: 99;
     opacity: 0;
     -ms-filter: "alpha(Opacity=0)";
     overflow: hidden;
-    -webkit-transform: translate(0, 20px);
-    -ms-transform: translate(0, 20px);
-    transform: translate(0, 20px);
+    -webkit-transform: translate(0,20px);
+    -ms-transform: translate(0,20px);
+    transform: translate(0,20px);
     -webkit-transition: .3s ease-out;
     transition: .3s ease-out
 }
@@ -854,9 +852,9 @@ html.no-touchevents .modal-dialog-buttons button[name=cancel]:hover {
 .mutiview-dialog.show {
     opacity: 1;
     -ms-filter: "alpha(Opacity=100)";
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0)
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0)
 }
 
 html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
@@ -883,18 +881,18 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
 .mutiview-dialog .mutiview-dialog-title .title.left {
     opacity: 0;
     -ms-filter: "alpha(Opacity=0)";
-    -webkit-transform: translate(-50px, 0);
-    -ms-transform: translate(-50px, 0);
-    transform: translate(-50px, 0)
+    -webkit-transform: translate(-50px,0);
+    -ms-transform: translate(-50px,0);
+    transform: translate(-50px,0)
 }
 
 .mutiview-dialog .mutiview-dialog-title .title.right {
     visibility: hidden;
     opacity: 0;
     -ms-filter: "alpha(Opacity=0)";
-    -webkit-transform: translate(50px, 0);
-    -ms-transform: translate(50px, 0);
-    transform: translate(50px, 0)
+    -webkit-transform: translate(50px,0);
+    -ms-transform: translate(50px,0);
+    transform: translate(50px,0)
 }
 
 .mutiview-dialog .mutiview-dialog-title .title h1 {
@@ -909,7 +907,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     font-weight: 400
 }
 
-.mutiview-dialog .mutiview-dialog-title .mutiview-dialog-title-back, .mutiview-dialog .mutiview-dialog-title .mutiview-dialog-title-close {
+.mutiview-dialog .mutiview-dialog-title .mutiview-dialog-title-back,.mutiview-dialog .mutiview-dialog-title .mutiview-dialog-title-close {
     position: absolute;
     top: 10px;
     cursor: pointer;
@@ -975,9 +973,9 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     position: absolute;
     opacity: 0;
     -ms-filter: "alpha(Opacity=0)";
-    -webkit-transform: translate(-100%, 0);
-    -ms-transform: translate(-100%, 0);
-    transform: translate(-100%, 0)
+    -webkit-transform: translate(-100%,0);
+    -ms-transform: translate(-100%,0);
+    transform: translate(-100%,0)
 }
 
 .mutiview-dialog .mutiview-dialog-content .view.right {
@@ -986,12 +984,12 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     top: 0;
     opacity: 0;
     -ms-filter: "alpha(Opacity=0)";
-    -webkit-transform: translate(100%, 0);
-    -ms-transform: translate(100%, 0);
-    transform: translate(100%, 0)
+    -webkit-transform: translate(100%,0);
+    -ms-transform: translate(100%,0);
+    transform: translate(100%,0)
 }
 
-@media (max-width: 450px) {
+@media (max-width:450px) {
     .mutiview-dialog {
         width: 100%;
         height: 100%;
@@ -1016,7 +1014,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     }
 
     .mutiview-dialog .mutiview-dialog-content {
-        height: auto !important
+        height: auto!important
     }
 
     html.modal-open .modal-wrapper .mutiview-dialog {
@@ -1156,25 +1154,25 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     color: #c33;
     cursor: text;
     background: #fff;
-    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #fff 8px);
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 8px);
+    background: -webkit-linear-gradient(left,rgba(255,255,255,0),#fff 8px);
+    background: linear-gradient(to right,rgba(255,255,255,0),#fff 8px);
     visibility: hidden;
     opacity: 0;
     -ms-filter: "alpha(Opacity=0)";
     -webkit-transition: .25s ease-out;
     transition: .25s ease-out;
-    -webkit-transform: translate(8px, 0);
-    -ms-transform: translate(8px, 0);
-    transform: translate(8px, 0)
+    -webkit-transform: translate(8px,0);
+    -ms-transform: translate(8px,0);
+    transform: translate(8px,0)
 }
 
 .SignFlow .input-wrapper label.error.is-visible {
     visibility: visible;
     opacity: 1;
     -ms-filter: "alpha(Opacity=100)";
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0)
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0)
 }
 
 .SignFlow .input-wrapper label.error.highlighted {
@@ -1187,7 +1185,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     text-decoration: none
 }
 
-.SignFlow .input-wrapper label.error a, .SignFlow .input-wrapper label.error span {
+.SignFlow .input-wrapper label.error a,.SignFlow .input-wrapper label.error span {
     color: #787878
 }
 
@@ -1262,59 +1260,59 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     border-radius: 3px
 }
 
-.SignupForm .actions, .LoginForm .actions {
+.SignupForm .actions,.LoginForm .actions {
     margin-top: 12px;
     padding: 0 8px;
     line-height: 30px
 }
 
-.SignupForm .actions .submit.zg-btn-blue, .LoginForm .actions .submit.zg-btn-blue {
+.SignupForm .actions .submit.zg-btn-blue,.LoginForm .actions .submit.zg-btn-blue {
     width: 100%;
     outline: 0
 }
 
-.SignupForm .actions button.submit, .LoginForm .actions button.submit {
+.SignupForm .actions button.submit,.LoginForm .actions button.submit {
     width: 100%;
     padding: 10px 0
 }
 
-.SignupForm .sns, .LoginForm .sns {
+.SignupForm .sns,.LoginForm .sns {
     position: relative;
     padding: 0 8px;
     line-height: 54px
 }
 
-.SignupForm .sns button, .LoginForm .sns button {
+.SignupForm .sns button,.LoginForm .sns button {
     padding: 13px 0;
     line-height: 1
 }
 
-.SignupForm .sns button .ico, .LoginForm .sns button .ico {
+.SignupForm .sns button .ico,.LoginForm .sns button .ico {
     display: inline-block;
     margin-right: 7px;
     vertical-align: bottom
 }
 
-.SignupForm .sns button:hover, .LoginForm .sns button:hover {
+.SignupForm .sns button:hover,.LoginForm .sns button:hover {
     color: #999
 }
 
-.SignupForm .sns button:hover .ico, .LoginForm .sns button:hover .ico {
+.SignupForm .sns button:hover .ico,.LoginForm .sns button:hover .ico {
     opacity: .8;
     -ms-filter: "alpha(Opacity=80)"
 }
 
-@media (max-width: 450px) {
-    .SignupForm .sns button.wechat, .LoginForm .sns button.wechat {
+@media (max-width:450px) {
+    .SignupForm .sns button.wechat,.LoginForm .sns button.wechat {
         display: none
     }
 
-    html.ua-wechat .SignupForm .sns button.wechat, html.ua-wechat .LoginForm .sns button.wechat {
+    html.ua-wechat .SignupForm .sns button.wechat,html.ua-wechat .LoginForm .sns button.wechat {
         display: inline-block
     }
 }
 
-.SignupForm .sns .js-show-sns-buttons, .LoginForm .sns .js-show-sns-buttons {
+.SignupForm .sns .js-show-sns-buttons,.LoginForm .sns .js-show-sns-buttons {
     float: right;
     padding: 20px 0;
     opacity: 0;
@@ -1324,13 +1322,13 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     transform: translateX(-8px);
     -webkit-transition: .25s ease-out;
     transition: .25s ease-out;
-    -webkit-transition-property: opacity, -webkit-transform;
-    transition-property: opacity, -webkit-transform;
-    transition-property: opacity, transform;
-    transition-property: opacity, transform, -webkit-transform
+    -webkit-transition-property: opacity,-webkit-transform;
+    transition-property: opacity,-webkit-transform;
+    transition-property: opacity,transform;
+    transition-property: opacity,transform,-webkit-transform
 }
 
-.SignupForm .sns .js-show-sns-buttons.is-visible, .LoginForm .sns .js-show-sns-buttons.is-visible {
+.SignupForm .sns .js-show-sns-buttons.is-visible,.LoginForm .sns .js-show-sns-buttons.is-visible {
     opacity: 1;
     -ms-filter: "alpha(Opacity=100)";
     -webkit-transform: none;
@@ -1338,7 +1336,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     transform: none
 }
 
-.SignupForm .sns .sns-buttons, .LoginForm .sns .sns-buttons {
+.SignupForm .sns .sns-buttons,.LoginForm .sns .sns-buttons {
     position: absolute;
     top: 0;
     right: 8px;
@@ -1350,13 +1348,13 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     transform: translateX(8px);
     -webkit-transition: .25s ease-out .12s;
     transition: .25s ease-out .12s;
-    -webkit-transition-property: opacity, -webkit-transform;
-    transition-property: opacity, -webkit-transform;
-    transition-property: opacity, transform;
-    transition-property: opacity, transform, -webkit-transform
+    -webkit-transition-property: opacity,-webkit-transform;
+    transition-property: opacity,-webkit-transform;
+    transition-property: opacity,transform;
+    transition-property: opacity,transform,-webkit-transform
 }
 
-.SignupForm .sns .sns-buttons.is-visible, .LoginForm .sns .sns-buttons.is-visible {
+.SignupForm .sns .sns-buttons.is-visible,.LoginForm .sns .sns-buttons.is-visible {
     opacity: 1;
     -ms-filter: "alpha(Opacity=100)";
     -webkit-transform: none;
@@ -1365,7 +1363,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     visibility: visible
 }
 
-.SignupForm .sns .sns-buttons button, .LoginForm .sns .sns-buttons button {
+.SignupForm .sns .sns-buttons button,.LoginForm .sns .sns-buttons button {
     padding: 18px 0;
     font: 0/0 a;
     color: transparent;
@@ -1389,26 +1387,26 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     width: 165px
 }
 
-.mutiview-dialog.unable-login .view.start .blue-button + .blue-button {
+.mutiview-dialog.unable-login .view.start .blue-button+.blue-button {
     margin-top: 25px
 }
 
-.mutiview-dialog.oauth-register .view.bound, .mutiview-dialog.oauth-register .view.registered {
+.mutiview-dialog.oauth-register .view.bound,.mutiview-dialog.oauth-register .view.registered {
     text-align: center
 }
 
-.mutiview-dialog.oauth-register .view.bound img, .mutiview-dialog.oauth-register .view.registered img {
+.mutiview-dialog.oauth-register .view.bound img,.mutiview-dialog.oauth-register .view.registered img {
     display: block;
     margin: auto;
     border-radius: 50%
 }
 
-.mutiview-dialog.oauth-register .view.bound .name, .mutiview-dialog.oauth-register .view.registered .name {
+.mutiview-dialog.oauth-register .view.bound .name,.mutiview-dialog.oauth-register .view.registered .name {
     display: block;
     margin: 12px auto 15px
 }
 
-.mutiview-dialog.oauth-register .view.bound button.register, .mutiview-dialog.oauth-register .view.registered button.register {
+.mutiview-dialog.oauth-register .view.bound button.register,.mutiview-dialog.oauth-register .view.registered button.register {
     width: 100%;
     height: 45px;
     margin-top: 30px;
@@ -1427,7 +1425,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     float: right
 }
 
-.zh-hovercard-arrow, .zu-top-live-icon {
+.zh-hovercard-arrow,.zu-top-live-icon {
     height: 15px;
     width: 23px;
     z-index: 101;
@@ -1440,7 +1438,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     background-position: -168px -185px
 }
 
-.zh-hovercard-arrow.top, .zu-top-live-icon {
+.zh-hovercard-arrow.top,.zu-top-live-icon {
     top: -11px;
     left: 25px;
     background-position: -168px -165px
@@ -1476,7 +1474,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     width: 380px
 }
 
-.zh-profile-card .upper, .zh-profile-card .lower {
+.zh-profile-card .upper,.zh-profile-card .lower {
     border: 14px solid transparent
 }
 
@@ -1518,7 +1516,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     vertical-align: -1px
 }
 
-.zh-profile-card .upper .personal .icon-profile-education, .zh-profile-card .upper .personal .icon-profile-company {
+.zh-profile-card .upper .personal .icon-profile-education,.zh-profile-card .upper .personal .icon-profile-company {
     margin-right: 6px
 }
 
@@ -1526,7 +1524,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     color: #999
 }
 
-.zh-profile-card .upper .personal .info-wrap .item + .item {
+.zh-profile-card .upper .personal .info-wrap .item+.item {
     border-left: 1px solid #EEE;
     padding-left: 10px;
     margin-left: 10px
@@ -1543,7 +1541,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     display: inline-block
 }
 
-.zh-profile-card .upper .secondary a, .zh-profile-card .upper .secondary a:visited {
+.zh-profile-card .upper .secondary a,.zh-profile-card .upper .secondary a:visited {
     color: #222
 }
 
@@ -1572,7 +1570,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     color: #999
 }
 
-.zh-profile-card .lower .operation .zg-btn, .zh-profile-card .lower .operation .zg-btn-white, .zh-profile-card .lower .operation button {
+.zh-profile-card .lower .operation .zg-btn,.zh-profile-card .lower .operation .zg-btn-white,.zh-profile-card .lower .operation button {
     float: right;
     height: 32px;
     margin-top: 8px;
@@ -1607,7 +1605,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     color: inherit
 }
 
-.zh-profile-card .lower .meta .item .value, .zh-profile-card .lower .meta .item .key {
+.zh-profile-card .lower .meta .item .value,.zh-profile-card .lower .meta .item .key {
     display: block;
     text-align: center
 }
@@ -1650,7 +1648,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     background-position: center
 }
 
-.zu-tooltip-arrow-bottom, .zh-tooltip-arrow-right {
+.zu-tooltip-arrow-bottom,.zh-tooltip-arrow-right {
     position: absolute;
     border: 6px solid transparent;
     width: 0;
@@ -1713,7 +1711,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-top: 8px solid #000;
-    border-top-color: rgba(0, 0, 0, .75)
+    border-top-color: rgba(0,0,0,.75)
 }
 
 .tooltip.left .tooltip-arrow {
@@ -1723,7 +1721,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
     border-left: 8px solid #000;
-    border-left-color: rgba(0, 0, 0, .75)
+    border-left-color: rgba(0,0,0,.75)
 }
 
 .tooltip.bottom .tooltip-arrow {
@@ -1733,7 +1731,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-bottom: 8px solid #000;
-    border-bottom-color: rgba(0, 0, 0, .75)
+    border-bottom-color: rgba(0,0,0,.75)
 }
 
 .tooltip.right .tooltip-arrow {
@@ -1743,7 +1741,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
     border-right: 8px solid #000;
-    border-right-color: rgba(0, 0, 0, .75)
+    border-right-color: rgba(0,0,0,.75)
 }
 
 .tooltip .tooltip-inner {
@@ -1753,7 +1751,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     text-align: center;
     text-decoration: none;
     background-color: #000;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0,0,0,.75);
     border-radius: 4px
 }
 
@@ -1773,7 +1771,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     border: 1px solid #ddd
 }
 
-.tooltip[data-theme=white].top .tooltip-inner:after, .tooltip[data-theme=white].top .tooltip-inner:before {
+.tooltip[data-theme=white].top .tooltip-inner:after,.tooltip[data-theme=white].top .tooltip-inner:before {
     position: absolute;
     height: 0;
     width: 0;
@@ -1802,7 +1800,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     border: 1px solid #ddd
 }
 
-.tooltip[data-theme=white].left .tooltip-inner:after, .tooltip[data-theme=white].left .tooltip-inner:before {
+.tooltip[data-theme=white].left .tooltip-inner:after,.tooltip[data-theme=white].left .tooltip-inner:before {
     position: absolute;
     height: 0;
     width: 0;
@@ -1831,7 +1829,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     border: 1px solid #ddd
 }
 
-.tooltip[data-theme=white].bottom .tooltip-inner:after, .tooltip[data-theme=white].bottom .tooltip-inner:before {
+.tooltip[data-theme=white].bottom .tooltip-inner:after,.tooltip[data-theme=white].bottom .tooltip-inner:before {
     position: absolute;
     height: 0;
     width: 0;
@@ -1860,7 +1858,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     border: 1px solid #ddd
 }
 
-.tooltip[data-theme=white].right .tooltip-inner:after, .tooltip[data-theme=white].right .tooltip-inner:before {
+.tooltip[data-theme=white].right .tooltip-inner:after,.tooltip[data-theme=white].right .tooltip-inner:before {
     position: absolute;
     height: 0;
     width: 0;
@@ -1892,7 +1890,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     color: #666;
     text-align: left;
     white-space: nowrap;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .15)
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.15)
 }
 
 .tooltip[data-theme=white] li {
@@ -2005,7 +2003,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     border-left: 13px solid #fff
 }
 
-.popover .arrow, .popover .arrow2 {
+.popover .arrow,.popover .arrow2 {
     position: absolute;
     width: 0;
     height: 0
@@ -2026,20 +2024,18 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     overflow: hidden
 }
 
-.popover .popover-content p, .popover .popover-content ul, .popover .popover-content ol {
+.popover .popover-content p,.popover .popover-content ul,.popover .popover-content ol {
     margin-bottom: 0
 }
 
 .goog-hovercard.popover {
     display: block
-}
-
-[class*=sprite-index-icon-] {
+}[class*=sprite-index-icon-] {
     display: inline-block;
     vertical-align: middle
 }
 
-.sprite-index, [class*=sprite-index-] {
+.sprite-index,[class*=sprite-index-] {
     background-image: url(/static/revved/img/index/sprites.auto.011cd4a7.png);
     background-repeat: no-repeat
 }
@@ -2092,8 +2088,8 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     height: 18px
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
-    .sprite-index, [class*=sprite-index-] {
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi) {
+    .sprite-index,[class*=sprite-index-] {
         background-image: url(/static/revved/img/index/sprites@2x.auto.639fd724.png);
         background-size: 93px 62px
     }
@@ -2125,7 +2121,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     margin-top: 48px
 }
 
-.sign-flow .agreement a, .sign-flow .org-tip a {
+.sign-flow .agreement a,.sign-flow .org-tip a {
     color: #25bb9b
 }
 
@@ -2178,7 +2174,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     float: right
 }
 
-.sign-flow .view .input-wrapper, .sign-flow .view .button-wrapper, .sign-flow .view .signin-misc-wrapper, .sign-flow .view .weibo-signup-wrapper {
+.sign-flow .view .input-wrapper,.sign-flow .view .button-wrapper,.sign-flow .view .signin-misc-wrapper,.sign-flow .view .weibo-signup-wrapper {
     margin-top: 18px
 }
 
@@ -2195,17 +2191,17 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     color: #555;
     border: 1px solid #1672B9;
     border-radius: 5px;
-    box-shadow: inset 0 1px 2px rgba(15, 82, 135, .25), 0 1px 0 rgba(255, 255, 255, .15)
+    box-shadow: inset 0 1px 2px rgba(15,82,135,.25),0 1px 0 rgba(255,255,255,.15)
 }
 
 .sign-flow .view .input-wrapper input:focus {
     background: #fff;
     outline: 0;
-    box-shadow: inset 0 1px 2px rgba(15, 82, 135, .25), 0 0 10px rgba(255, 255, 255, .3);
+    box-shadow: inset 0 1px 2px rgba(15,82,135,.25),0 0 10px rgba(255,255,255,.3);
     border: 1px solid #197CC9
 }
 
-.sign-flow .view .input-wrapper input.first, .sign-flow .view .input-wrapper input.last {
+.sign-flow .view .input-wrapper input.first,.sign-flow .view .input-wrapper input.last {
     width: 70px
 }
 
@@ -2230,9 +2226,9 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     display: none;
     margin-top: 18px;
     width: 100%;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0,0,0,.1);
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .1) inset, 0 1px 0 rgba(255, 255, 255, .15)
+    box-shadow: 0 1px 1px rgba(0,0,0,.1) inset,0 1px 0 rgba(255,255,255,.15)
 }
 
 .sign-flow .view .failure ul {
@@ -2254,18 +2250,18 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     color: #fff
 }
 
-.sign-flow .view .failure li + li {
+.sign-flow .view .failure li+li {
     margin-top: 5px
 }
 
-@media (max-width: 740px) {
+@media (max-width :740px) {
     .sign-flow .view {
         float: none;
         margin: 0 auto;
         width: 248px
     }
 
-    .sign-flow .view .input-wrapper, .sign-flow .view .button-wrapper, .sign-flow .view .signin-misc-wrapper, .sign-flow .view .weibo-signup-wrapper {
+    .sign-flow .view .input-wrapper,.sign-flow .view .button-wrapper,.sign-flow .view .signin-misc-wrapper,.sign-flow .view .weibo-signup-wrapper {
         margin-top: 22px
     }
 
@@ -2290,16 +2286,16 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     text-align: center;
     float: left;
     width: 145px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
     background: #80c3f7;
-    background: -webkit-linear-gradient(top, #80c3f7, #6bbaf8);
-    background: linear-gradient(to bottom, #80c3f7, #6bbaf8);
+    background: -webkit-linear-gradient(top,#80c3f7,#6bbaf8);
+    background: linear-gradient(to bottom,#80c3f7,#6bbaf8);
     border: 1px solid #1D80CF;
     border-radius: 5px;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 1px rgba(50, 50, 50, .05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.3),0 1px 1px rgba(50,50,50,.05);
     outline: 0;
     cursor: pointer;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    -webkit-tap-highlight-color: rgba(0,0,0,0)
 }
 .sign-button + .sign-button {
     margin-left: 10px;
@@ -2307,27 +2303,27 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
 .sign-button:active {
     color: #eee;
     border: 1px solid #0971C5;
-    background: -webkit-linear-gradient(top, #5dadec, #51a4e6);
-    background: linear-gradient(to bottom, #5dadec, #51a4e6);
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1), 0 1px 0 rgba(255, 255, 255, .1)
+    background: -webkit-linear-gradient(top,#5dadec,#51a4e6);
+    background: linear-gradient(to bottom,#5dadec,#51a4e6);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1),0 1px 0 rgba(255,255,255,.1)
 }
 
 .sign-button.sign-button-white {
     color: #484848;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
     background: #f2f5f7;
-    background: -webkit-linear-gradient(top, #f2f5f7, #e0e4e7);
-    background: linear-gradient(to bottom, #f2f5f7, #e0e4e7);
+    background: -webkit-linear-gradient(top,#f2f5f7,#e0e4e7);
+    background: linear-gradient(to bottom,#f2f5f7,#e0e4e7);
     border: 1px solid #3b86c2;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), 0 1px 1px rgba(50, 50, 50, .05)
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.5),0 1px 1px rgba(50,50,50,.05)
 }
 
 .sign-button.sign-button-white:active {
     color: #424242;
-    background: -webkit-linear-gradient(top, #cddae2, #c9d4dd);
-    background: linear-gradient(to bottom, #cddae2, #c9d4dd);
+    background: -webkit-linear-gradient(top,#cddae2,#c9d4dd);
+    background: linear-gradient(to bottom,#cddae2,#c9d4dd);
     border: 1px solid #297DC0;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .15), 0 1px 0 rgba(255, 255, 255, .1)
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.15),0 1px 0 rgba(255,255,255,.1)
 }
 
 .sign-flow {
@@ -2357,7 +2353,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     overflow: hidden
 }
 
-.sign-flow .view .input-wrapper + .input-wrapper {
+.sign-flow .view .input-wrapper+.input-wrapper {
     border-top: 1px solid #e8e8e8
 }
 
@@ -2367,7 +2363,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     box-sizing: border-box
 }
 
-.sign-flow .view .input-wrapper input, .sign-flow .view .input-wrapper input:focus {
+.sign-flow .view .input-wrapper input,.sign-flow .view .input-wrapper input:focus {
     border: 0;
     border-radius: 0;
     box-shadow: none;
@@ -2398,7 +2394,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     color: #fff
 }
 
-.sign-flow .sign-button:focus, html.no-touchevents .sign-flow .sign-button:hover {
+.sign-flow .sign-button:focus,html.no-touchevents .sign-flow .sign-button:hover {
     background: #00B091
 }
 
@@ -2411,14 +2407,14 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     color: #c33;
     cursor: text;
     background: #fff;
-    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #fff 8px);
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 8px);
+    background: -webkit-linear-gradient(left,rgba(255,255,255,0),#fff 8px);
+    background: linear-gradient(to right,rgba(255,255,255,0),#fff 8px);
     visibility: hidden;
     opacity: 0;
     -ms-filter: "alpha(Opacity=0)";
-    -webkit-transform: translate(20px, 0);
-    -ms-transform: translate(20px, 0);
-    transform: translate(20px, 0);
+    -webkit-transform: translate(20px,0);
+    -ms-transform: translate(20px,0);
+    transform: translate(20px,0);
     -webkit-transition: .25s ease-out;
     transition: .25s ease-out
 }
@@ -2427,9 +2423,9 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     visibility: visible;
     opacity: 1;
     -ms-filter: "alpha(Opacity=100)";
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0)
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0)
 }
 
 .sign-flow label.error.highlighted {
@@ -2447,7 +2443,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     text-decoration: none
 }
 
-.sign-flow label.error a, .sign-flow label.error span {
+.sign-flow label.error a,.sign-flow label.error span {
     color: #787878
 }
 
@@ -2455,7 +2451,7 @@ html.modal-open.no-flexbox .modal-wrapper .mutiview-dialog {
     margin: 0
 }
 
-.sign-flow .captcha-module .captcha-container span, .sign-flow .captcha-module .captcha-container a {
+.sign-flow .captcha-module .captcha-container span,.sign-flow .captcha-module .captcha-container a {
     display: none
 }
 
@@ -2503,10 +2499,10 @@ html.no-touchevents .sign-flow .weibo-signup-wrapper a:hover {
     -webkit-transform: translateX(-20px);
     -ms-transform: translateX(-20px);
     transform: translateX(-20px);
-    -webkit-transition: opacity .25s ease-out, -webkit-transform .25s ease-out;
-    transition: opacity .25s ease-out, -webkit-transform .25s ease-out;
-    transition: opacity .25s ease-out, transform .25s ease-out;
-    transition: opacity .25s ease-out, transform .25s ease-out, -webkit-transform .25s ease-out;
+    -webkit-transition: opacity .25s ease-out,-webkit-transform .25s ease-out;
+    transition: opacity .25s ease-out,-webkit-transform .25s ease-out;
+    transition: opacity .25s ease-out,transform .25s ease-out;
+    transition: opacity .25s ease-out,transform .25s ease-out,-webkit-transform .25s ease-out;
     visibility: hidden
 }
 
@@ -2530,14 +2526,14 @@ html.no-touchevents .sign-flow .weibo-signup-wrapper a:hover {
     background-size: contain
 }
 
-@media (max-width: 740px) {
+@media (max-width :740px) {
     .index-header .logo {
         width: 96px;
         height: 44.4px
     }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 2dppx),(min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi) {
     .index-header .logo {
         background-image: url(/static/revved/img/index/logo@2x.e4e2b466.png)
     }
@@ -2549,14 +2545,14 @@ html.no-touchevents .sign-flow .weibo-signup-wrapper a:hover {
     background-image: url(/static/revved/img/org/signup/logo.57fac9a5.png)
 }
 
-@media (max-width: 740px) {
+@media (max-width :740px) {
     .index-header .logo.org-logo {
         width: 142.4px;
         height: 32.8px
     }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 2dppx),(min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi) {
     .index-header .logo.org-logo {
         background-image: url(/static/revved/img/org/signup/logo@2x.ce86aca0.png)
     }
@@ -2602,8 +2598,8 @@ html.no-touchevents .sign-flow .weibo-signup-wrapper a:hover {
     line-height: 35px;
     opacity: .7;
     -ms-filter: "alpha(Opacity=70)";
-    -webkit-transition: opacity .15s, color .15s;
-    transition: opacity .15s, color .15s
+    -webkit-transition: opacity .15s,color .15s;
+    transition: opacity .15s,color .15s
 }
 
 html.no-touchevents .index-tab-navs a:hover {
@@ -2653,7 +2649,7 @@ html.no-touchevents .index-tab-navs a:hover {
     height: 310px;
     color: #555;
     background-color: #fff;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.15);
     border-radius: 10px
 }
 
@@ -2680,13 +2676,13 @@ html.no-touchevents .index-tab-navs a:hover {
     background-image: url(/static/revved/img/index/qr-code.d6565408.png)
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 2dppx) {
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
     .QRCode-image {
         background-image: url(/static/revved/img/index/qr-code@2x.2607d448.png)
     }
 }
 
-html, body {
+html,body {
     height: 100%
 }
 
@@ -2694,7 +2690,7 @@ body {
     color: #555;
     font-size: 15px;
     line-height: 1.7;
-    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+    font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
     background: #f7fafc;
     -webkit-font-smoothing: subpixel-antialiased
 }
@@ -2704,7 +2700,7 @@ body {
     margin-bottom: -42px
 }
 
-@media (max-width: 740px) {
+@media (max-width :740px) {
     .index-main {
         margin-bottom: -102px
     }
@@ -2716,7 +2712,7 @@ body {
     width: 300px
 }
 
-@media (min-width: 741px) {
+@media (min-width :741px) {
     .index-main {
         text-align: center;
         white-space: nowrap;
@@ -2741,7 +2737,7 @@ body {
     }
 }
 
-@media (min-width: 741px) and (max-height: 600px) {
+@media (min-width :741px) and (max-height:600px) {
     .index-main {
         height: auto
     }
@@ -2753,7 +2749,7 @@ body {
     text-align: center
 }
 
-@media (max-width: 740px) {
+@media (max-width :740px) {
     .footer {
         padding-bottom: 60px
     }
@@ -2763,7 +2759,7 @@ body {
     }
 }
 
-.footer span, .footer a {
+.footer span,.footer a {
     color: #aebdc9
 }
 
@@ -2786,7 +2782,7 @@ body {
 .topic-list-for-spider h1 {
     color: #aebdc9;
     text-decoration: none;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, .8)
+    text-shadow: 0 1px 0 rgba(255,255,255,.8)
 }
 
 .topic-list-for-spider .topics {
@@ -2795,7 +2791,7 @@ body {
     line-height: 2.5em;
     background: #fff;
     border-radius: 5px;
-    box-shadow: 0 1px 1px rgba(100, 100, 100, .15);
+    box-shadow: 0 1px 1px rgba(100,100,100,.15);
     overflow: hidden
 }
 
@@ -2818,7 +2814,7 @@ body {
     margin-bottom: 12px
 }
 
-.dialog-org-tip ol, .dialog-org-tip li {
+.dialog-org-tip ol,.dialog-org-tip li {
     list-style: none;
     color: #666
 }
@@ -2841,9 +2837,9 @@ body {
     padding: 0;
     -webkit-transition: .25s ease-out;
     transition: .25s ease-out;
-    -webkit-transform: translate(-20px, 0);
-    -ms-transform: translate(-20px, 0);
-    transform: translate(-20px, 0);
+    -webkit-transform: translate(-20px,0);
+    -ms-transform: translate(-20px,0);
+    transform: translate(-20px,0);
     background: 0 0
 }
 
@@ -2851,9 +2847,9 @@ body {
     opacity: 1;
     -ms-filter: "alpha(Opacity=100)";
     visibility: visible;
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0)
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0)
 }
 
 .Captcha-imageConatiner {
@@ -2901,29 +2897,29 @@ body {
     visibility: visible;
     opacity: 1;
     -ms-filter: "alpha(Opacity=100)";
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0)
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0)
 }
 
 .Captcha-prompt.is-hidden {
     visibility: hidden;
     opacity: 0;
     -ms-filter: "alpha(Opacity=0)";
-    -webkit-transform: translate(20px, 0);
-    -ms-transform: translate(20px, 0);
-    transform: translate(20px, 0)
+    -webkit-transform: translate(20px,0);
+    -ms-transform: translate(20px,0);
+    transform: translate(20px,0)
 }
 
 .GaussianBlur {
-    background-color: rgba(255, 255, 255, .96);
-    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, .08)
+    background-color: rgba(255,255,255,.96);
+    box-shadow: 0 -1px 0 0 rgba(0,0,0,.08)
 }
 
 @supports (-webkit-backdrop-filter:blur(18px)) {
     .GaussianBlur {
         -webkit-backdrop-filter: blur(18px);
-        background-color: rgba(255, 255, 255, .68)
+        background-color: rgba(255,255,255,.68)
     }
 }
 
@@ -2968,20 +2964,20 @@ html.is-AppPromotionBarVisible .AppPromotionBar {
     background-size: 41px
 }
 
-.AppPromotionBar-closeButton + .AppPromotionBar-icon {
+.AppPromotionBar-closeButton+.AppPromotionBar-icon {
     margin-left: 0
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 2dppx) {
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
     .AppPromotionBar-icon {
         background-image: url(/static/revved/img/app_promotion_bar/icon@3x.6362b806.png)
     }
 }
 
-.AppPromotionBar-title, .AppPromotionBar-describe {
+.AppPromotionBar-title,.AppPromotionBar-describe {
     margin-right: 84px;
     line-height: 1;
-    color: rgba(12, 26, 62, .48)
+    color: rgba(12,26,62,.48)
 }
 
 .AppPromotionBar-title {
@@ -3013,7 +3009,7 @@ html.is-AppPromotionBarVisible .AppPromotionBar {
     box-shadow: inset 0 -2px #006acc
 }
 
-@media (min-width: 500px) {
+@media (min-width:500px) {
     .AppPromotionBar {
         height: 90px
     }
@@ -3035,7 +3031,7 @@ html.is-AppPromotionBarVisible .AppPromotionBar {
         background-size: 61px
     }
 
-    .AppPromotionBar-title, .AppPromotionBar-describe {
+    .AppPromotionBar-title,.AppPromotionBar-describe {
         margin-right: 135px
     }
 

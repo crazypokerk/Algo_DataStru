@@ -1,75 +1,44 @@
 package com.exe.wenda.model;
 
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.Date;
 
 /**
  * @Date 2019/4/6 13:27
  */
 public class Comment {
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private int id;
+
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private int userId;
+
     //questionId/commentId/...
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private int entityId;
+
     //question/comment/...
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private int entityType;
+
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private String content;
+
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private Date createdDate;
+
     //不真正删除，只是设置状态被隐藏
+    @Setter(value = AccessLevel.PUBLIC)
+    @Getter(value = AccessLevel.PUBLIC)
     private int status;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getUserId() {
-        return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
-    }
-
-    public int getEntityId() {
-        return entityId;
-    }
-
-    public void setEntityId(int entityId) {
-        this.entityId = entityId;
-    }
-
-    public int getEntityType() {
-        return entityType;
-    }
-
-    public void setEntityType(int entityType) {
-        this.entityType = entityType;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
-    }
-
-    public Date getCreatedDate() {
-        return createdDate;
-    }
-
-    public void setCreatedDate(Date createdDate) {
-        this.createdDate = createdDate;
-    }
-
-    public int getStatus() {
-        return status;
-    }
-
-    public void setStatus(int status) {
-        this.status = status;
-    }
 }

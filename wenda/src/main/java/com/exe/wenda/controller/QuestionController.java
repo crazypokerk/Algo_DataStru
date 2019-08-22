@@ -59,17 +59,17 @@ public class QuestionController {
         List<ViewObject> comments = new ArrayList<ViewObject>();
         for (Comment comment : commentList) {
             ViewObject vo = new ViewObject();
-            vo.set("comment", comment);
+            vo.setObject("comment", comment);
             if (hostHolder.getUser() == null) {
-                vo.set("liked", 0);
+                vo.setObject("liked", 0);
             } else {
-                vo.set("liked", likeService.getLikeStatus(hostHolder.getUser().getId(), EntityType.ENTITY_COMMENT, comment.getId()));
+                vo.setObject("liked", likeService.getLikeStatus(hostHolder.getUser().getId(), EntityType.ENTITY_COMMENT, comment.getId()));
             }
 
             //点赞数量
-            vo.set("likeCount", likeService.getLikeCount(EntityType.ENTITY_COMMENT, comment.getId()));
+            vo.setObject("likeCount", likeService.getLikeCount(EntityType.ENTITY_COMMENT, comment.getId()));
             //点赞人
-            vo.set("user", userService.getUser(comment.getUserId()));
+            vo.setObject("user", userService.getUser(comment.getUserId()));
             comments.add(vo);
         }
 
@@ -84,9 +84,9 @@ public class QuestionController {
             if (u == null) {
                 continue;
             }
-            vo.set("name", u.getName());
-            vo.set("headUrl", u.getHeadUrl());
-            vo.set("id", u.getId());
+            vo.setObject("name", u.getName());
+            vo.setObject("headUrl", u.getHeadUrl());
+            vo.setObject("id", u.getId());
             followUsers.add(vo);
         }
         model.addAttribute("followUsers", followUsers);

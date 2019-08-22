@@ -32,7 +32,7 @@ public class SensitiveService implements InitializingBean {
         private boolean end = false;
 
         //创建子树
-        private Map<Character, TrieNode> subNodes = new HashMap<>();
+        private Map<Character, TrieNode> subNodes = new HashMap<Character, TrieNode>();
 
         //指定位置添加节点
         private void addSubNode(Character key, TrieNode node) {
@@ -142,7 +142,6 @@ public class SensitiveService implements InitializingBean {
     }
 
     //初始化文件中的敏感词
-    @Override
     public void afterPropertiesSet() throws Exception {
         root = new TrieNode();
         try {

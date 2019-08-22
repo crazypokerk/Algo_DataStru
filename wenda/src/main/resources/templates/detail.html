@@ -43,8 +43,7 @@
                     #end
                     <div class="zh-question-followers-sidebar">
                         <div class="zg-gray-normal">
-                            <a href="javascript:void(0);"><strong
-                                    class="js-user-count">${followUsers.size()}</strong></a>人关注该问题
+                            <a href="javascript:void(0);"><strong class="js-user-count">${followUsers.size()}</strong></a>人关注该问题
                         </div>
                         <div class="list zu-small-avatar-list zg-clear js-user-list">
                             #foreach($vo in $followUsers)
@@ -90,8 +89,7 @@
                     </div>
                     <div class="answer-head">
                         <div class="zm-item-answer-author-info">
-                            <a class="zm-item-link-avatar avatar-link" href="" target="_blank"
-                               data-tip="p$t$yingxiaodao">
+                            <a class="zm-item-link-avatar avatar-link" href="" target="_blank" data-tip="p$t$yingxiaodao">
                                 <img src="${comment.user.headUrl}" class="zm-list-avatar avatar"></a>
                             <a class="author-link" data-tip="p$t$yingxiaodao" target="_blank" href="">${comment.user.name}</a>
                         </div>
@@ -101,9 +99,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="6727688"
-                         data-action="/answer/content" data-author-name="营销岛"
-                         data-entry-url="/question/36301524/answer/66862039">
+                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="6727688" data-action="/answer/content" data-author-name="营销岛" data-entry-url="/question/36301524/answer/66862039">
 
                         <div class="zm-editable-content clearfix">
                             $comment.comment.content
@@ -112,14 +108,12 @@
                     <a class="zg-anchor-hidden ac" name="22162611-comment"></a>
                     <div class="zm-item-meta answer-actions clearfix js-contentActions">
                         <div class="zm-meta-panel">
-                            <a itemprop="url" class="answer-data-link meta-item" target="_blank" href="">发布于
-                                $data.format('yyyy-MM-dd HH:mm:ss', $comment.comment.createdDate)</a>
+                            <a itemprop="url" class="answer-date-link meta-item" target="_blank" href="">发布于 $date.format('yyyy-MM-dd HH:mm:ss', $comment.comment.createDate)</a>
                             <a href="" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
                                 <i class="z-icon-comment"></i>4 条评论</a>
 
                             <button class="item-collapse js-collapse" style="transition: none;">
-                                <i class="z-icon-fold"></i>收起
-                            </button>
+                                <i class="z-icon-fold"></i>收起</button>
                         </div>
                     </div>
                 </div>
@@ -133,8 +127,7 @@
                     <div class="zm-editable-editor-wrap" style="">
                         <div class="zm-editable-editor-outer">
                             <div class="zm-editable-editor-field-wrap">
-                                <textarea name="content" id="content" class="zm-editable-editor-field-element editable"
-                                          style="width:100%;"></textarea>
+                                <textarea name="content" id="content" class="zm-editable-editor-field-element editable" style="width:100%;"></textarea>
                             </div>
                         </div>
 
@@ -149,6 +142,4 @@
         </div>
     </div>
 </div>
-#parse("js.html")
-<script type="text/javascript" src="/scripts/main/site/detail.js"></script>
 #parse("footer.html")

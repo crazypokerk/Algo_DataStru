@@ -7,7 +7,6 @@ import com.exe.wenda.model.ViewObject;
 import com.exe.wenda.service.MessageService;
 import com.exe.wenda.service.UserService;
 import com.exe.wenda.util.WendaUtil;
-import org.apache.ibatis.annotations.Param;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -52,12 +51,12 @@ public class MessageController {
         List<ViewObject> conversations = new ArrayList<ViewObject>();
         for (Message message : conversationList) {
             ViewObject vo = new ViewObject();
-            vo.set("message", message);
+            vo.setObject("message", message);
             //知道对方是谁
             int targetId = message.getFromId() == localUserId ? message.getToId() : message.getFromId();
-            vo.set("user", userService.getUser(targetId));
+            vo.setObject("user", userService.getUser(targetId));
             //未读站内信
-            vo.set("unread", messageService.getConversationUnreadCount(localUserId, message.getConversationId()));
+            vo.setObject("unread", messageService.getConversationUnreadCount(localUserId, message.getConversationId()));
             conversations.add(vo);
         }
         model.addAttribute("conversations", conversations);
@@ -73,8 +72,8 @@ public class MessageController {
             List<ViewObject> messages = new ArrayList<ViewObject>();
             for (Message message : messageList) {
                 ViewObject vo = new ViewObject();
-                vo.set("message", message);
-                vo.set("user", userService.getUser(message.getFromId()));
+                vo.setObject("message", message);
+                vo.setObject("user", userService.getUser(message.getFromId()));
                 messages.add(vo);
             }
             model.addAttribute("messages", messages);
