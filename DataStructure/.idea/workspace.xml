@@ -2,198 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e659675-84e9-4ac0-9b04-f746461a3259" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AcNode/AcNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BFSDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern_2/Calzone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern_2/NyPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern_2/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ChainPatten/BankHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ChainPatten/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ChainPatten/EUR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ChainPatten/IMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ChainPatten/JPY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ChainPatten/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ChainPatten/RMB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/ChainPatten/USD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/CommandPattern/Breakfast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/CommandPattern/ChangFen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/CommandPattern/ChangFenCook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/CommandPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/CommandPattern/HunDun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/CommandPattern/HunDunCook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/CommandPattern/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/CommandPattern/YouTiao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/CommandPattern/YouTiaoCook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/FlyweightPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/FlyweightPattern/ConcreteSpecialForceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/FlyweightPattern/SpecialForceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/FlyweightPattern/SpecialForceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/GongChangMoShi/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/GongChangMoShi/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/GongChangMoShi/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/GongChangMoShi/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/GongChangMoShi/GongChang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/SingletonPattern/EnumSingleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/SingletonPattern/EnumSingleton/SingletonOfEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/SingletonPattern/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/TemplateMethodPattern/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/TemplateMethodPattern/BMW_X4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/TemplateMethodPattern/BMW_X6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/TemplateMethodPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/MaxCommonString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/MinimumTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProxy/AccountLoginImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProxy/MyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProxy/login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FindMissingInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/CallableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/CountryEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/DeadLockSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/ExecutorsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/NotifyWaitDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/SaleTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/SeasonEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/ThreadOrderAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JianZhiOffer/FindNumsAppearOnce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/TestLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/TestMethodReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/TestStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/TestTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/Trader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NIO/_1/TestBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NIO/_1/TestChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NIO/_2/TestBlockingNIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NIO/_2/TestBlockingNIO2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NIO/_2/TestNIO_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NIO/_2/TestNonBlockingNIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NIO/_2/TestNonBlockingNIO2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NIO/_2/TestPipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReferenceType_4/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SourceCode/IntegerSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SourceCode/StringRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/ABClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Ainterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Binterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/EnumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/RainBow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/StringIntern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/TestComparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/TestComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/TestFanxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/TestHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/TestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/VMdemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/maintest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Treeeee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WithoutHashCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/completableFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicpalan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_101_IsSymmetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_102_LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_104_MaxDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_105_BuildTree_pre_in.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_106_BuildTree_in_post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_107_LevelOrderBottom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_108_SortedArrayToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_109_SortedListToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_3sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/UserInfoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/User_Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/UserInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/GetMessageCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/ValidateCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/zookeeper/BaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/zookeeper/HelloZK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/zookeeper/WatchOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/comment.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/feed.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/login_ticket.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/message.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/question.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/sql/user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/king.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/user_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Array/_66_PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Array/_905_SortArrayByParity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Tree/_110_IsBalanced.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algo/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/EventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/EventConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/EventModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/EventModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/handler/LoginExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/async/handler/LoginExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/FeedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/FeedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/FollowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/CommentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/CommentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/LoginTicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/LoginTicketDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/MessageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/MessageDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/QuestionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/QuestionDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/LoginTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/LoginTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/ViewObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/model/ViewObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/FollowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/FollowService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/SensitiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/SensitiveService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/JedisAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/exe/wenda/util/JedisAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/aza-0.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/aza-0.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/base.fb262f0e.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/base.fb262f0e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/common.fed5411f.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/common.fed5411f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/ga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/ga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/base/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/base/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popupAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popupAdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popupMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/component/popupMsg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/follow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/follow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/main/site/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-index.d7b54ac7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-index.d7b54ac7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-main.5d4c554d.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-main.5d4c554d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/richtexteditor.aa0a4005.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/richtexteditor.aa0a4005.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/vendor.ff76fbae.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/vendor.ff76fbae.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/za-0.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/za-0.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/letter.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/letter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/result.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/result.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/feeds.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/feeds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/followees.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/followees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/followers.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/followers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/js.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/letter.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/letter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/letterDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/letterDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/mails/login_exception.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/mails/login_exception.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wenda/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/_101_IsSymmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/_101_IsSymmetric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/_102_LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/_102_LevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/_104_MaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/_104_MaxDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/_105_BuildTree_pre_in.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/_105_BuildTree_pre_in.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/_106_BuildTree_in_post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/_106_BuildTree_in_post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/_107_LevelOrderBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/_107_LevelOrderBottom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/_108_SortedArrayToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/_108_SortedArrayToBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/_109_SortedListToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/_109_SortedListToBST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -213,99 +33,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/_101_IsSymmetric.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Array/_905_SortArrayByParity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding>
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/_102_LevelOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/_107_LevelOrderBottom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/_108_SortedArrayToBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-              <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="319">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/_109_SortedListToBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-              <folding>
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/_104_MaxDepth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/_105_BuildTree_pre_in.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Array/_66_PlusOne.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/_106_BuildTree_in_post.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="43" column="59" selection-start-line="40" selection-start-column="8" selection-end-line="43" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -339,15 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/NIO/_2/TestNIO_2.java" />
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/MaxCommonString.java" />
-        <option value="$PROJECT_DIR$/src/_3sum.java" />
-        <option value="$PROJECT_DIR$/src/Algo/KMP.java" />
-        <option value="$PROJECT_DIR$/src/sadsd.java" />
-        <option value="$PROJECT_DIR$/src/JUC/SynchronizedTest.java" />
-        <option value="$PROJECT_DIR$/src/Test/RainBow.java" />
-        <option value="$PROJECT_DIR$/src/SORT/_1_BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/SORT/_3_SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/SORT/_2_InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/SORT/_5_MergeSort_2.java" />
         <option value="$PROJECT_DIR$/src/SORT/_6_QuickSort.java" />
@@ -390,6 +121,15 @@
         <option value="$PROJECT_DIR$/src/leetcode/_107_LevelOrderBottom.java" />
         <option value="$PROJECT_DIR$/src/leetcode/_108_SortedArrayToBST.java" />
         <option value="$PROJECT_DIR$/src/leetcode/_109_SortedListToBST.java" />
+        <option value="$PROJECT_DIR$/src/plane/map/BaseMap.java" />
+        <option value="$PROJECT_DIR$/src/plane/entity/Drone.java" />
+        <option value="$PROJECT_DIR$/src/plane/map/Map.java" />
+        <option value="$PROJECT_DIR$/src/plane/Main/Main.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_110_IsBalanced.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Tree/_110_IsBalanced.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Array/_905_SortArrayByParity.java" />
+        <option value="$PROJECT_DIR$/src/SortSalary.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Array/_66_PlusOne.java" />
       </list>
     </option>
   </component>
@@ -413,9 +153,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="367" />
-    <option name="y" value="32" />
-    <option name="width" value="1314" />
+    <option name="x" value="751" />
+    <option name="y" value="97" />
+    <option name="width" value="1315" />
     <option name="height" value="935" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -423,9 +163,17 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -446,18 +194,34 @@
             </path>
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Treeeee.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="WithoutHashCode.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -470,7 +234,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -499,39 +263,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="TestHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.TestHashSet" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.ThreadLocalTest" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._66_PlusOne">
     <configuration name="_102_LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode._102_LevelOrder" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.Tree._102_LevelOrder" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -539,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_104_MaxDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode._104_MaxDepth" />
+    <configuration name="_110_IsBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Tree._110_IsBalanced" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -552,12 +290,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="compress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.compress" />
+    <configuration name="_66_PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Array._66_PlusOne" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="leetcode.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_905_SortArrayByParity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Array._905_SortArrayByParity" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -566,19 +317,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestHashSet" />
-      <item itemvalue="Application.ThreadLocalTest" />
-      <item itemvalue="Application.compress" />
       <item itemvalue="Application._102_LevelOrder" />
-      <item itemvalue="Application._104_MaxDepth" />
+      <item itemvalue="Application._110_IsBalanced" />
+      <item itemvalue="Application._905_SortArrayByParity" />
+      <item itemvalue="Application._66_PlusOne" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._66_PlusOne" />
+        <item itemvalue="Application._905_SortArrayByParity" />
+        <item itemvalue="Application._110_IsBalanced" />
         <item itemvalue="Application._102_LevelOrder" />
-        <item itemvalue="Application._104_MaxDepth" />
-        <item itemvalue="Application.compress" />
-        <item itemvalue="Application.ThreadLocalTest" />
-        <item itemvalue="Application.TestHashSet" />
       </list>
     </recent_temporary>
   </component>
@@ -677,7 +426,10 @@
       <workItem from="1566199999257" duration="4259000" />
       <workItem from="1566284683082" duration="2529000" />
       <workItem from="1566351914906" duration="7489000" />
-      <workItem from="1566445319244" duration="11175000" />
+      <workItem from="1566445319244" duration="12396000" />
+      <workItem from="1566567426768" duration="2283000" />
+      <workItem from="1566607251190" duration="2541000" />
+      <workItem from="1566695222113" duration="10212000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1553563398246</created>
@@ -728,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560757403155</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add">
+      <created>1566472950529</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566472950529</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -764,12 +523,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344684000" />
+    <option name="totallyTimeSpent" value="360941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.29175475" visible="true" weight="0.29088473" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.29175475" visible="true" weight="0.24128686" />
       <window_info id="Structure" order="1" sideWeight="0.7082452" side_tool="true" weight="0.26082578" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -778,15 +538,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.31586403" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44967532" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.19546743" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.19805194" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32851985" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Graph Database Console" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.28611898" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.5311615" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.22521247" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.31451613" />
@@ -807,7 +567,7 @@
       <window_info anchor="right" id="RestServices" order="12" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.29175475" visible="true" weight="0.4370594" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.29175475" visible="true" weight="0.37122735" />
       <window_info id="Structure" order="1" sideWeight="0.7082452" side_tool="true" weight="0.26082578" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -816,15 +576,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.31586403" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44967532" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.44759208" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" visible="true" weight="0.19805194" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32851985" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Graph Database Console" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.28611898" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.5311615" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.22521247" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.31451613" />
@@ -897,19 +657,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/_104_MaxDepth.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/Tree/_104_MaxDepth.java</url>
           <line>11</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/_104_MaxDepth.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/Tree/_104_MaxDepth.java</url>
           <line>12</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/_102_LevelOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/Tree/_102_LevelOrder.java</url>
           <line>33</line>
           <properties />
           <option name="timeStamp" value="10" />
@@ -941,147 +701,11 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lambda/TestTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/function/Predicate.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Optional.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/function/Supplier.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lambda/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-          <folding>
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lambda/Trader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/function/Consumer.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/function/Function.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Math.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/time/Instant.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test/NumberConvert.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lambda/TestLambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2546">
-          <caret line="155" column="4" selection-start-line="155" selection-start-column="4" selection-end-line="155" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SORT/_1_BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/EnumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/maintest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Ainterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="e#65#66#0" expanded="true" />
-            <element signature="e#95#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Binterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/ABClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AcNode/AcNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-          <folding>
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/正装照.jpg" />
     <entry file="file://$PROJECT_DIR$/src/ReferenceType_4/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindMissingInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1109,16 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SORT/_8_HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-608">
@@ -1130,16 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/ThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1205,46 +809,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/ewrwe.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_101_IsSymmetric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_104_MaxDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_105_BuildTree_pre_in.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_106_BuildTree_in_post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="43" column="59" selection-start-line="40" selection-start-column="8" selection-end-line="43" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -1263,45 +827,279 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_102_LevelOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/plane/entity/Drone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_107_LevelOrderBottom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_108_SortedArrayToBST.java">
+    <entry file="file://$PROJECT_DIR$/src/plane/map/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plane/map/BaseMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plane/Main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/_110_IsBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_109_SortedListToBST.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/_101_IsSymmetric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        <state relative-caret-position="114">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/_102_LevelOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/_104_MaxDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/_105_BuildTree_pre_in.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/_106_BuildTree_in_post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/_107_LevelOrderBottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/_108_SortedArrayToBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/_109_SortedListToBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="e#114#115#0" expanded="true" />
             <element signature="e#128#129#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/ABClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Ainterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Binterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/HashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/maintest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/RainBow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/StringIntern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestComparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/VMdemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestFanxing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/ThreadLocalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/completableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicpalan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindMissingInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortSalary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="e#508#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Array/_905_SortArrayByParity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Array/_66_PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>

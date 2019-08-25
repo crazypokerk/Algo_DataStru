@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Tree;
 
 /**
  * @Date 2019/8/22 16:38
