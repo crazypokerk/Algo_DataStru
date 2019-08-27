@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * @Date 2019/4/27 13:45
  */
-public class _3sum {
+public class _15_3sum {
 	public List<List<Integer>> threeSum(int[] nums) {
 		if (nums.length < 3) {
 			return Collections.emptyList();
