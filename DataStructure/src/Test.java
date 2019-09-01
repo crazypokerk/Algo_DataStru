@@ -1,7 +1,4 @@
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @Date 2019/6/16 21:35
@@ -73,16 +70,33 @@ public class Test {
 //      default:
 //        System.out.println("fuck");
 //    }
+
+
+//		String s = "[(]";
+//		String ss = "{{}}[[]]";
+//		int valid = isValid(s);
+//		int valid1 = isValid(ss);
+//
+//		System.out.println(valid);
+//		System.out.println(valid1);
 		
+		int[] a = new int[8];
+		Arrays.fill(a, 8);
 		
-		String s = "[(]";
-		String ss = "{{}}[[]]";
-		int valid = isValid(s);
-		int valid1 = isValid(ss);
+		for (int i : a) {
+			System.out.print(i);
+		}
 		
-		System.out.println(valid);
-		System.out.println(valid1);
+		List<String> list = new ArrayList<>();
+		list.add("a");
+		list.add("b");
+		list.add("c");
 		
+		String[] strings = list.toArray(new String[list.size()]);
+		
+		for (String string : strings) {
+			System.out.println(string);
+		}
 		
 	}
 	
