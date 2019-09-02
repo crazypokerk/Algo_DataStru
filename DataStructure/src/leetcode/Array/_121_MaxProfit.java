@@ -1,4 +1,4 @@
-package leetcode.Others;
+package leetcode.Array;
 
 /**
  * @Date 2019/8/28 8:55

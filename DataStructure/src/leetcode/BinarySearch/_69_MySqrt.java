@@ -1,4 +1,4 @@
-package leetcode.Others;
+package leetcode.BinarySearch;
 
 /**
  * @Date 2019/8/28 9:29
