@@ -1,5 +1,7 @@
 package leetcode.LinkedList;
 
+import leetcode.ListNode;
+
 /**
  * @Date 2019/9/2 10:53
  */

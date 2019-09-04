@@ -106,7 +106,6 @@ public class Test {
 		map.put(')', '(');
 		map.put(']', '[');
 		map.put('}', '{');
-		
 		for (char c : s.toCharArray()) {
 			if (!map.containsKey(c)) {
 				stack.push(c);
@@ -120,6 +119,33 @@ public class Test {
 		return 1;
 	}
 	
+	public boolean ii(String strings) {
+		
+		
+		Stack<Character> stack = new Stack<>();
+		
+		
+		Map<Character, Character> map = new HashMap<>();
+		
+		map.put(')', '(');
+		map.put(']', '[');
+		map.put('}', '{');
+		
+		for (char c : strings.toCharArray()) {
+			if (!map.containsKey(c)) {
+				stack.push(c);
+			} else if (stack.isEmpty() || map.get(c) != stack.pop()) {
+				return false;
+			}
+		}
+		
+		if (!stack.isEmpty()) {
+			return false;
+		}
+		
+		return true;
+		
+	}
 	
 }
 

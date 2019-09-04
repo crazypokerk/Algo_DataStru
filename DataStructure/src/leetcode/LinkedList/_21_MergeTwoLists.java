@@ -1,16 +1,10 @@
 package leetcode.LinkedList;
 
+import leetcode.ListNode;
+
 /**
  * @Date 2019/9/2 8:45
  */
-class ListNode {
-	int val;
-	ListNode next;
-	
-	ListNode(int x) {
-		val = x;
-	}
-}
 
 public class _21_MergeTwoLists {
 	

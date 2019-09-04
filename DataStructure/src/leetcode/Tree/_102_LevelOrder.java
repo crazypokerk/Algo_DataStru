@@ -31,7 +31,7 @@ public class _102_LevelOrder {
 					queue.add(tmp.right);
 				}
 			}
-			result.add(0, list);
+			result.add(list);
 		}
 		return result;
 	}
