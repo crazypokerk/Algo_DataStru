@@ -1,4 +1,4 @@
-package leetcode.Top100;
+package leetcode.Top;
 
 
 import java.util.HashMap;

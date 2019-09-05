@@ -11,21 +11,22 @@ public class _94_InorderTraversal {
 	
 	public List<Integer> inorderTraversal(TreeNode root) {
 		Stack<TreeNode> stack = new Stack<>();
-		List<Integer> list = new ArrayList<>();
+		List<Integer> res = new ArrayList<>();
+		if (root == null) return res;
 		
-		TreeNode tmp = root;
+		TreeNode sentry = root;
 		
-		while (tmp != null && !stack.isEmpty()) {
-			if (tmp != null) {
-				stack.push(tmp);
-				tmp = tmp.left;
+		while (sentry != null || !stack.isEmpty()) {
+			if (sentry != null) {
+				stack.push(sentry);
+				sentry = sentry.left;
 			} else {
-				tmp = stack.pop();
-				list.add(tmp.val);
-				tmp = tmp.right;
+				sentry = stack.pop();
+				res.add(sentry.val);
+				sentry = sentry.right;
 			}
 		}
-		return list;
+		return res;
 	}
 	
 }

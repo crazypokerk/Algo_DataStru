@@ -1,4 +1,4 @@
-package leetcode.Top100;
+package leetcode.Top;
 
 /**
  * @Date 2019/9/4 8:56
