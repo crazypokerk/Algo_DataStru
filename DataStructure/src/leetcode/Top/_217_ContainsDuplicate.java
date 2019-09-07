@@ -15,12 +15,12 @@ public class _217_ContainsDuplicate {
 		
 		for (int i = 0; i < nums.length; i++) {
 			if (map.containsKey(nums[i])) {
-				return false;
+				return true;
 			} else {
 				map.put(nums[i], i);
 			}
 		}
-		return true;
+		return false;
 	}
 	
 	public static void main(String[] args) {
