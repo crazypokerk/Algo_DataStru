@@ -98,52 +98,13 @@ public class Test {
 			System.out.println(string);
 		}
 		
-	}
-	
-	static int isValid(String s) {
-		Stack<Character> stack = new Stack<>();
-		Map<Character, Character> map = new HashMap<>();
-		map.put(')', '(');
-		map.put(']', '[');
-		map.put('}', '{');
-		for (char c : s.toCharArray()) {
-			if (!map.containsKey(c)) {
-				stack.push(c);
-			} else if (stack.isEmpty() || map.get(c) != stack.pop()) {
-				return 0;
-			}
-		}
-		if (!stack.empty()) {
-			return 0;
-		}
-		return 1;
-	}
-	
-	public boolean ii(String strings) {
+		String str1 = "abc";
+		String str2 = new String("abc");
+		String str3 = str2.intern();
+		System.out.println(str1 == str2);
+		System.out.println(str2 == str3);
+		System.out.println(str1 == str3);
 		
-		
-		Stack<Character> stack = new Stack<>();
-		
-		
-		Map<Character, Character> map = new HashMap<>();
-		
-		map.put(')', '(');
-		map.put(']', '[');
-		map.put('}', '{');
-		
-		for (char c : strings.toCharArray()) {
-			if (!map.containsKey(c)) {
-				stack.push(c);
-			} else if (stack.isEmpty() || map.get(c) != stack.pop()) {
-				return false;
-			}
-		}
-		
-		if (!stack.isEmpty()) {
-			return false;
-		}
-		
-		return true;
 		
 	}
 	
