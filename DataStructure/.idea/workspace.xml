@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e659675-84e9-4ac0-9b04-f746461a3259" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/ReorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Top/_114_Flatten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Top/_5_LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Top/_92_ReverseBetween.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Top/_22_GenerateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Top/_22_GenerateParenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,55 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/_102_LevelOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Top/dp/_198_Rob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_42_Trap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="45" column="84" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_58_LengthOfLastWord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_112_HasPathSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="466">
+              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,13 +54,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_409_LongestPalindrome.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_92_ReverseBetween.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="415">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_114_Flatten.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/ReorderList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_22_GenerateParenthesis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="e#253#273#1" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_112_HasPathSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_5_LongestPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -108,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_345_ReverseVowels.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,10 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/LinkedList/_82_DeleteDuplicates_II.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/LinkedList/_83_DeleteDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/LinkedList/_92_ReverseBetween.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/LinkedList/_141_HasCycle.java" />
         <option value="$PROJECT_DIR$/src/leetcode/LinkedList/_142_HasCycle_II.java" />
         <option value="$PROJECT_DIR$/src/leetcode/LinkedList/_160_GetIntersectionNode.java" />
         <option value="$PROJECT_DIR$/src/leetcode/LinkedList/_203_RemoveElements.java" />
@@ -193,7 +198,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/Top100/_204_CountPrimes.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Top/_204_CountPrimes.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Top/_387_FirstUniqChar.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Top/_22_GenerateParenthesis.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Top/_28_StrStr.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Top/_350_Intersect.java" />
         <option value="$PROJECT_DIR$/src/Test/Yuncong1.java" />
@@ -217,11 +221,16 @@
         <option value="$PROJECT_DIR$/src/leetcode/Top/TreeMaxValue.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Top/_3_LengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Top/_42_Trap.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Top/_58_LengthOfLastWord.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Top/_112_HasPathSum.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Top/_409_LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Top/_345_ReverseVowels.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Top/_5_LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Top/_22_GenerateParenthesis.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Top/_92_ReverseBetween.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Top/_114_Flatten.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/ReorderList.java" />
       </list>
     </option>
   </component>
@@ -245,10 +254,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="460" />
-    <option name="y" value="46" />
+    <option name="x" value="601" />
+    <option name="y" value="18" />
     <option name="width" value="1315" />
-    <option name="height" value="942" />
+    <option name="height" value="902" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -264,6 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,7 +312,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeMaxValue">
+  <component name="RunManager" selected="Application._93_RestoreIpAddresses">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="DataStructure" />
@@ -371,12 +380,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Yuncong1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Yuncong1" />
+    <configuration name="_22_GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Top._22_GenerateParenthesis" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="leetcode.Top.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,12 +393,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Yuncong2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Yuncong2" />
+    <configuration name="_5_LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Top._5_LongestPalindrome" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="leetcode.Top.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -397,12 +406,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Yuncong3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Yuncong3" />
+    <configuration name="_93_RestoreIpAddresses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Top._93_RestoreIpAddresses" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="leetcode.Top.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,19 +420,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Yuncong1" />
-      <item itemvalue="Application.Yuncong2" />
-      <item itemvalue="Application.Yuncong3" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.TreeMaxValue" />
+      <item itemvalue="Application._5_LongestPalindrome" />
+      <item itemvalue="Application._22_GenerateParenthesis" />
+      <item itemvalue="Application._93_RestoreIpAddresses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._93_RestoreIpAddresses" />
+        <item itemvalue="Application._22_GenerateParenthesis" />
+        <item itemvalue="Application._5_LongestPalindrome" />
         <item itemvalue="Application.TreeMaxValue" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Yuncong3" />
-        <item itemvalue="Application.Yuncong2" />
-        <item itemvalue="Application.Yuncong1" />
       </list>
     </recent_temporary>
   </component>
@@ -550,7 +559,8 @@
       <workItem from="1568034072680" duration="2520000" />
       <workItem from="1568075513413" duration="3741000" />
       <workItem from="1568163562661" duration="9180000" />
-      <workItem from="1568248852513" duration="7928000" />
+      <workItem from="1568248852513" duration="7969000" />
+      <workItem from="1568335168006" duration="18066000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1553563398246</created>
@@ -699,7 +709,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568113012579</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add">
+      <created>1568293501260</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1568293501260</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add">
+      <created>1568293514753</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1568293514753</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -735,13 +759,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="542825000" />
+    <option name="totallyTimeSpent" value="560932000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="368" y="37" width="1052" height="753" extended-state="0" />
-    <editor active="true" />
+    <frame x="481" y="15" width="1052" height="721" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.28846154" weight="0.28169015" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.28846154" visible="true" weight="0.30784708" />
       <window_info id="Structure" order="1" sideWeight="0.71153843" side_tool="true" weight="0.19168901" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -750,8 +773,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.18130311" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.4029304" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.3796034" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.35410765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -759,7 +782,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Graph Database Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" weight="0.3371105" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.22382672" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.22347267" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.31451613" />
       <window_info anchor="bottom" id="SonarLint" order="14" />
@@ -780,7 +803,7 @@
       <window_info anchor="right" id="Coverage" order="13" side_tool="true" weight="0.2193159" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.28846154" visible="true" weight="0.28169015" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.28846154" visible="true" weight="0.30784708" />
       <window_info id="Structure" order="1" sideWeight="0.71153843" side_tool="true" weight="0.19168901" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -789,8 +812,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.18130311" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.4029304" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.3796034" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.35410765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -798,7 +821,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Graph Database Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" weight="0.3371105" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.22382672" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.22347267" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.31451613" />
       <window_info anchor="bottom" id="SonarLint" order="14" />
@@ -912,6 +935,54 @@
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/Top/_22_GenerateParenthesis.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/Top/_22_GenerateParenthesis.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -947,29 +1018,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Treeeee.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_171_TitleToNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/VMdemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test/RainBow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/ThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/Yuncong1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1361,17 +1409,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_58_LengthOfLastWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_409_LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_345_ReverseVowels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1397,33 +1455,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_345_ReverseVowels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_409_LongestPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#253#273#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_112_HasPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="133">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_5_LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_22_GenerateParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_93_RestoreIpAddresses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_92_ReverseBetween.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/ReorderList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Top/_114_Flatten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
