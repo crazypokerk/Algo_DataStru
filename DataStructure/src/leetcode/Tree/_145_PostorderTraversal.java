@@ -1,9 +1,8 @@
 package leetcode.Tree;
 
-import java.util.ArrayList;
-import java.util.Collections;
+
+import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * @Date 2019/8/31 16:20
@@ -11,23 +10,24 @@ import java.util.Stack;
 public class _145_PostorderTraversal {
 	
 	public List<Integer> postorderTraversal(TreeNode root) {
-		Stack<TreeNode> stack = new Stack<>();
-		List<Integer> output = new ArrayList<>();
-		if (root == null) return output;
 		
-		stack.add(root);
-		while (!stack.isEmpty()) {
-			TreeNode now = stack.pop();
-			output.add(now.val);
-			if (now.left != null) {
-				stack.push(now.left);
+		LinkedList<TreeNode> list = new LinkedList<>();
+		LinkedList<Integer> ans = new LinkedList<>();
+		if (root == null) return ans;
+		
+		list.add(root);
+		
+		while (!list.isEmpty()) {
+			TreeNode cur = list.pollLast();
+			ans.addFirst(cur.val);
+			if (cur.left != null) {
+				list.add(cur.left);
 			}
-			if (now.right != null) {
-				stack.push(now.right);
+			if (cur.right != null) {
+				list.add(cur.right);
 			}
 		}
-		Collections.reverse(output);
-		return output;
+		return ans;
 	}
 	
 }
